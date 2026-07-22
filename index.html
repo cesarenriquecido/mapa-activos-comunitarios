@@ -10,11 +10,48 @@
 html, body {
   margin: 0;
   height: 100%;
+  font-family: Arial, sans-serif;
 }
 
 #map {
   height: 100vh;
   width: 100%;
+}
+
+.popup-content {
+  min-width: 250px;
+  font-size: 12px;
+}
+
+.popup-content h3 {
+  margin: 0 0 10px 0;
+  color: #2c3e50;
+}
+
+.popup-content p {
+  margin: 5px 0;
+}
+
+.popup-content strong {
+  color: #34495e;
+}
+
+.popup-content a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.popup-content a:hover {
+  text-decoration: underline;
+}
+
+.tematica {
+  display: inline-block;
+  background-color: #ecf0f1;
+  padding: 3px 8px;
+  margin: 2px 2px 2px 0;
+  border-radius: 3px;
+  font-size: 11px;
 }
 </style>
 
@@ -28,6 +65,7 @@ html, body {
 
 <script>
 
+// Crear el mapa
 var map = L.map('map').setView(
   [43.1711, -2.63055],
   11
@@ -40,9 +78,56 @@ L.tileLayer(
   }
 ).addTo(map);
 
-L.marker(
-  [43.1711, -2.63055]
-).addTo(map);
+// Cargar recursos desde JSON
+fetch('recursos.json')
+  .then(response => response.json())
+  .then(recursos => {
+    // Crear marcadores para cada recurso
+    recursos.forEach(recurso => {
+      // Crear contenido del popup
+      let popupContent = `
+        <div class="popup-content">
+          <h3>${recurso.titulo}</h3>
+      `;
+      
+      if (recurso.actividad) {
+        popupContent += `<p><strong>Actividad:</strong> ${recurso.actividad}</p>`;
+      }
+      
+      if (recurso.telefono) {
+        popupContent += `<p><strong>Teléfono:</strong> <a href="tel:${recurso.telefono.replace(/\D/g, '')}">${recurso.telefono}</a></p>`;
+      }
+      
+      if (recurso.web) {
+        popupContent += `<p><strong>Web:</strong> <a href="${recurso.web}" target="_blank">Visitar</a></p>`;
+      }
+      
+      if (recurso.tematicas && recurso.tematicas.length > 0) {
+        popupContent += `<p><strong>Temáticas:</strong></p>`;
+        recurso.tematicas.forEach(tematica => {
+          popupContent += `<span class="tematica">${tematica}</span>`;
+        });
+      }
+      
+      if (recurso.poblacion && recurso.poblacion.length > 0) {
+        popupContent += `<p><strong>Población:</strong> ${recurso.poblacion.join(', ')}</p>`;
+      }
+      
+      if (recurso.tipo && recurso.tipo.length > 0) {
+        popupContent += `<p><strong>Tipo:</strong> ${recurso.tipo.join(', ')}</p>`;
+      }
+      
+      popupContent += `</div>`;
+      
+      // Crear marcador
+      L.marker(
+        [recurso.lat, recurso.lon]
+      )
+      .bindPopup(popupContent)
+      .addTo(map);
+    });
+  })
+  .catch(error => console.error('Error cargando recursos.json:', error));
 
 </script>
 
