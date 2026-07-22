@@ -1,0 +1,3802 @@
+[
+  {
+    "titulo": "Mancomunidad de Durango - Zaindu",
+    "lat": 43.1711,
+    "lon": -2.63055,
+    "actividad": "Servicio de apoyo a familiares cuidadores",
+    "telefono": "946.200.546",
+    "web": "https://www.dma.eus/es-ES/Servicios/Servicios-Sociales/Zaindu/Paginas/default.aspx",
+    "tematicas": [
+      "Personas cuidadoras",
+      "Mujeres",
+      "Personas Mayores",
+      "Enfermedades crónicas",
+      "Personas en riesgo de exclusión social",
+      "Salud mental/Bienestar emocional"
+    ],
+    "poblacion": [
+      "Familias"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Elorrio - Kirolak",
+    "lat": 43.1294,
+    "lon": -2.54221,
+    "actividad": "",
+    "telefono": "",
+    "web": "https://www.elorrio.eus/eu-ES/Udal_arloak/Kirolak/Orriak/default.aspx",
+    "tematicas": [
+      "Actividad física"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Berriz",
+    "lat": 43.1748,
+    "lon": -2.57755,
+    "actividad": "",
+    "telefono": "946.824.036",
+    "web": "https://www.berriz.eus/es-ES/Paginas/default.aspx",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "EDE Fundazioa",
+    "lat": 43.2601,
+    "lon": -2.94229,
+    "actividad": "Organización social que busca generar impacto y cambios duraderos, inclusivos y sostenibles, a través del conocimiento, la intevención directa y el desarrollo de proyectos de economía social y empleo inclusivo.",
+    "telefono": "944.009.999",
+    "web": "https://edefundazioa.org/",
+    "tematicas": [
+      "Salud comunitaria",
+      "Población general",
+      "Ocupación/inserción laboral"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Aiara",
+      "Amorebieta",
+      "Arratia",
+      "Arrigorriaga",
+      "Basauri Ariz",
+      "Basauri Kareaga",
+      "Bermeo",
+      "Durango",
+      "Etxebarri",
+      "Galdakao",
+      "Gernika",
+      "Gernikaldea",
+      "Lekeitio",
+      "Llodio",
+      "Markina",
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Elorrio - Igualdad",
+    "lat": 43.1304,
+    "lon": -2.54295,
+    "actividad": "",
+    "telefono": "946.570.809",
+    "web": "",
+    "tematicas": [
+      "Mujeres",
+      "Hombres",
+      "Población general",
+      "Género e identidad"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "Caritas",
+    "lat": 43.168,
+    "lon": -2.63019,
+    "actividad": "Promoción Social y Personal\nRelaciones Familiares, Mayores y Envejecimiento\nAcogida Integral y Promoción Social y Personal\n",
+    "telefono": "",
+    "web": "https://www.caritasbi.org/",
+    "tematicas": [
+      "Personas en riesgo de exclusión social"
+    ],
+    "poblacion": [
+      "Personas en riesgo de exclusión social",
+      "Personas migrantes"
+    ],
+    "tipo": [
+      "Fundación y ONG"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Amorebieta",
+      "Arratia",
+      "Arrigorriaga",
+      "Basauri Ariz",
+      "Basauri Kareaga",
+      "Bermeo",
+      "Durango",
+      "Galdakao",
+      "Gernika",
+      "Gernikaldea",
+      "Lekeitio",
+      "Etxebarri",
+      "Markina",
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Etxepel",
+    "lat": 43.168,
+    "lon": -2.63019,
+    "actividad": "Acompañamiento personalizado para que la persona que sufre esta situación de exclusión pueda desarrollar su proceso de incorporación social. Incluye un servicio de atención diurna para personas en situación de exclusión de la Diputación Foral de Bizkaia.",
+    "telefono": "946.810.019",
+    "web": "https://www.caritasbi.org/accion_social/etxepel/",
+    "tematicas": [
+      "Personas en riesgo de exclusión social"
+    ],
+    "poblacion": [
+      "Personas en riesgo de exclusión social",
+      "Personas migrantes"
+    ],
+    "tipo": [
+      "Fundación y ONG"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Abadiño - Cultura y Deportes",
+    "lat": 43.1515,
+    "lon": -2.61019,
+    "actividad": "Infoabadiño: Canal de actualización de agenda municipal a través de Whatsapp Dirige Errota Kultur Etxea Mesas de Ocio Gestiona instalaciones deportivas Grupos y actividades deportivas Servicio Mobi",
+    "telefono": "944.669.416",
+    "web": "https://www.xn--abadio-0wa.org/es-ES/Servicios/Cultura/Paginas/ErrotaKulturEtxea.aspx",
+    "tematicas": [
+      "Cultura, ocio y naturaleza",
+      "Actividad física"
+    ],
+    "poblacion": [
+      "Población general"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "Mancomunidad de Durango - Servicios Sociales de Base",
+    "lat": 43.1715,
+    "lon": -2.63131,
+    "actividad": "Atención y detección de personas en situación de riesgo de exclusión, dependencia y/o desprotección, con el objetivo final de mejorar la calidad de vida de las mismas, prevenir y paliar las dificultades que surjan",
+    "telefono": "946.200.492",
+    "web": "https://www.dma.eus/es-ES/Servicios/Servicios-Sociales/Paginas/default.aspx",
+    "tematicas": [
+      "Personas en riesgo de exclusión social",
+      "Ocupación/inserción laboral",
+      "Personas migrantes",
+      "Personas Mayores"
+    ],
+    "poblacion": [
+      "Población general",
+      "Familias",
+      "Personas cuidadoras",
+      "Personas mayores",
+      "Personas migrantes",
+      "Personas en riesgo de exclusión social",
+      "Diversidad funcional"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Durango",
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "ESNATU ",
+    "lat": 43.2621,
+    "lon": -2.93211,
+    "actividad": "Programa de Atención Psicológica de víctimas de violencia machista contra las mujeres.\n\nPrograma de Atención Psicológica a víctimas de violencia sexual.\n\nPrograma de Atención Psicológica a personas autoras de actos de maltrato o de delitos contra la libertad sexual.\n\n- Diagnóstico y valoración.\n- Atención Psicológica Individualizada: tratamientos individuales de apoyo psicológico y de psicoterapia a las personas beneficiarias.\n- Atención Psicológica Grupal como intervención complementaria a la atención psicológica individualizada.\n- Seguimiento de los casos atendidos.\n- Evaluación de los casos tratados.\n- La asistencia psicológica prestada será urgente (en los casos de riesgo inminente), gratuita y especializada.",
+    "telefono": "946.620.505",
+    "web": "https://www.bizkaia.eus/es/tema-detalle/-/edukia/dt/1807",
+    "tematicas": [
+      "Mujeres"
+    ],
+    "poblacion": [
+      "Mujer",
+      "Familias"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "ESNATU ",
+    "lat": 43.2621,
+    "lon": -2.93211,
+    "actividad": "Programa de Atención Psicológica de víctimas de violencia machista contra las mujeres.\n\nPrograma de Atención Psicológica a víctimas de violencia sexual.\n\nPrograma de Atención Psicológica a personas autoras de actos de maltrato o de delitos contra la libertad sexual.\n\n- Diagnóstico y valoración.\n- Atención Psicológica Individualizada: tratamientos individuales de apoyo psicológico y de psicoterapia a las personas beneficiarias.\n- Atención Psicológica Grupal como intervención complementaria a la atención psicológica individualizada.\n- Seguimiento de los casos atendidos.\n- Evaluación de los casos tratados.\n- La asistencia psicológica prestada será urgente (en los casos de riesgo inminente), gratuita y especializada.",
+    "telefono": "946.620.505",
+    "web": "https://www.bizkaia.eus/es/tema-detalle/-/edukia/dt/1807",
+    "tematicas": [
+      "Mujeres"
+    ],
+    "poblacion": [
+      "Mujer",
+      "Familias"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Markina"
+    ]
+  },
+  {
+    "titulo": "ESNATU ",
+    "lat": 43.2621,
+    "lon": -2.93211,
+    "actividad": "Programa de Atención Psicológica de víctimas de violencia machista contra las mujeres.\n\nPrograma de Atención Psicológica a víctimas de violencia sexual.\n\nPrograma de Atención Psicológica a personas autoras de actos de maltrato o de delitos contra la libertad sexual.\n\n- Diagnóstico y valoración.\n- Atención Psicológica Individualizada: tratamientos individuales de apoyo psicológico y de psicoterapia a las personas beneficiarias.\n- Atención Psicológica Grupal como intervención complementaria a la atención psicológica individualizada.\n- Seguimiento de los casos atendidos.\n- Evaluación de los casos tratados.\n- La asistencia psicológica prestada será urgente (en los casos de riesgo inminente), gratuita y especializada.",
+    "telefono": "946.620.505",
+    "web": "https://www.bizkaia.eus/es/tema-detalle/-/edukia/dt/1807",
+    "tematicas": [
+      "Mujeres"
+    ],
+    "poblacion": [
+      "Mujer",
+      "Familias"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "ESNATU ",
+    "lat": 43.2621,
+    "lon": -2.93211,
+    "actividad": "Programa de Atención Psicológica de víctimas de violencia machista contra las mujeres.\n\nPrograma de Atención Psicológica a víctimas de violencia sexual.\n\nPrograma de Atención Psicológica a personas autoras de actos de maltrato o de delitos contra la libertad sexual.\n\n- Diagnóstico y valoración.\n- Atención Psicológica Individualizada: tratamientos individuales de apoyo psicológico y de psicoterapia a las personas beneficiarias.\n- Atención Psicológica Grupal como intervención complementaria a la atención psicológica individualizada.\n- Seguimiento de los casos atendidos.\n- Evaluación de los casos tratados.\n- La asistencia psicológica prestada será urgente (en los casos de riesgo inminente), gratuita y especializada.",
+    "telefono": "946.620.505",
+    "web": "https://www.bizkaia.eus/es/tema-detalle/-/edukia/dt/1807",
+    "tematicas": [
+      "Mujeres"
+    ],
+    "poblacion": [
+      "Mujer",
+      "Familias"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Aiara",
+      "Amorebieta",
+      "Arratia",
+      "Arrigorriaga",
+      "Basauri Ariz",
+      "Basauri Kareaga",
+      "Bermeo",
+      "Etxebarri",
+      "Galdakao",
+      "Gernikaldea",
+      "Lekeitio",
+      "Llodio",
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Mancomunidad de Durango - Prevención de Adicciones",
+    "lat": 43.1711,
+    "lon": -2.63066,
+    "actividad": "Prevenir adicciones y promover conductas saludables. Ámbito escolar, familiar, comunitario y atención ciudadana",
+    "telefono": "946.200.520",
+    "web": "https://www.dma.eus/es-ES/Servicios/Prevencion-Adicciones/Paginas/default.aspx",
+    "tematicas": [
+      "Tabaco",
+      "Adicciones"
+    ],
+    "poblacion": [
+      "Población general",
+      "Infancia",
+      "Juventud",
+      "Personas en riesgo de exclusión social"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Abadiño - Igualdad",
+    "lat": 43.1525,
+    "lon": -2.6081,
+    "actividad": "Escuelas de empoderamiento: Programa anual enfocado a inmigración y empoderamiento de mujeres Abadiño Sex:  Mesas: 1 a nivel local y la otra a nivel de mancomunidad con Consejo de VG",
+    "telefono": "",
+    "web": "https://www.xn--abadio-0wa.org/es-ES/Servicios/Igualdadydiversidad/Paginas/default.aspx",
+    "tematicas": [
+      "Mujeres",
+      "Género e identidad"
+    ],
+    "poblacion": [
+      "Población general",
+      "Mujer",
+      "Personas migrantes"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "Kainabera ONG",
+    "lat": 43.1294,
+    "lon": -2.54221,
+    "actividad": "Cooperación Internacional",
+    "telefono": "",
+    "web": "",
+    "tematicas": [
+      "Personas migrantes",
+      "Personas en riesgo de exclusión social"
+    ],
+    "poblacion": [
+      "Personas en riesgo de exclusión social",
+      "Personas migrantes"
+    ],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "Zabaltzen-Sartu",
+    "lat": 43.1724,
+    "lon": -2.62892,
+    "actividad": "Desarrollo de actividades y servicios encaminados a \nconseguir la plena inclusión social de personas y/o grupos en situación de exclusión \no desventaja social y la promoción de comunidades integradoras. Todo ello en \ncolaboración con la red de servicios sociales, de empleo y comunitario",
+    "telefono": "946.200.449",
+    "web": "https://zabaltzensartu.org/es/",
+    "tematicas": [
+      "Personas en riesgo de exclusión social"
+    ],
+    "poblacion": [
+      "Personas en riesgo de exclusión social",
+      "Personas migrantes"
+    ],
+    "tipo": [
+      "Recursos sociales y comunitarios"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Durango",
+      "Bermeo",
+      "Lekeitio"
+    ]
+  },
+  {
+    "titulo": "JAED",
+    "lat": 43.164,
+    "lon": -2.6289,
+    "actividad": "Atención a las personas en riesgo de exclusión social. Coordinación con agentes públicos y privados de Durango e Iurreta.\nAyuda económica puntual y entrega de alimentos en colaboración con el Banco de Alimentos de Bizkaia",
+    "telefono": "946.201.468",
+    "web": "http://www.jaed.es/index_eu.html",
+    "tematicas": [
+      "Personas en riesgo de exclusión social"
+    ],
+    "poblacion": [
+      "Familias",
+      "Personas migrantes"
+    ],
+    "tipo": [
+      "Recursos sociales y comunitarios"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "KZ Gunea - Abadiño",
+    "lat": 43.1687,
+    "lon": -2.60894,
+    "actividad": "Formación en Nuevas Tecnologías",
+    "telefono": "944.033.300",
+    "web": "https://www.kzgunea.eus/es/centros?p_p_id=kzguneacentros_WAR_z01pportlet&p_p_lifecycle=0&p_p_col_id=column-1&p_p_col_count=1&_kzguneacentros_WAR_z01pportlet_view=viewCentroListado",
+    "tematicas": [
+      "Formación"
+    ],
+    "poblacion": [
+      "Población general"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "Mancomunidad de Durango - Servicio de Personas Mayores",
+    "lat": 43.1715,
+    "lon": -2.63131,
+    "actividad": "Servicio dirigido a promover la autonomía personal, prevenir la dependencia e impulsar el envejecimiento activo. >60 años\n\n- Información y orientación a personas y asociaciones de mayores\n- Cursos, talleres y servicios dirigidos a promover la autonommía p",
+    "telefono": "946.200.546",
+    "web": "https://www.dma.eus/es-ES/Servicios/Dinamizacion-Personas-Mayores/Paginas/default.aspx",
+    "tematicas": [
+      "Personas Mayores",
+      "Personas en riesgo de exclusión social",
+      "Salud mental/Bienestar emocional",
+      "Personas cuidadoras"
+    ],
+    "poblacion": [
+      "Personas cuidadoras",
+      "Familias",
+      "Personas mayores"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "Andragunea",
+    "lat": 43.1661,
+    "lon": -2.63249,
+    "actividad": "Espacio destinado para el desarrollo de actividades para mujeres\n- Escuela de empoderamiento\n- Espacio de encuentro\n- Violencia machista\n- Programas y campañas",
+    "telefono": "944.657.092",
+    "web": "https://www.durango.eus/es/andragunea",
+    "tematicas": [
+      "Mujeres",
+      "Salud mental/Bienestar emocional",
+      "Personas en riesgo de exclusión social"
+    ],
+    "poblacion": [
+      "Mujer"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Durango",
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "ATXONDOKO HAURRESKOLA",
+    "lat": 43.1291,
+    "lon": -2.58608,
+    "actividad": "",
+    "telefono": "946.859.002",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [
+      "Infancia"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "ZALDIBAR",
+    "lat": 43.1713,
+    "lon": -2.54642,
+    "actividad": "",
+    "telefono": "944.287.910",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "ZALDIBARKO HAURRESKOLA-ZALDUZUBIETA",
+    "lat": 43.1719,
+    "lon": -2.5455,
+    "actividad": "",
+    "telefono": "946.824.497",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [
+      "Infancia"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "ATXONDO",
+    "lat": 43.1291,
+    "lon": -2.58608,
+    "actividad": "",
+    "telefono": "944.280.196",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "ABADIÑO",
+    "lat": 43.1668,
+    "lon": -2.61212,
+    "actividad": "",
+    "telefono": "944.287.969",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "ABADIÑOKO HAURRESKOLA-TRAÑA MATIENA",
+    "lat": 43.1667,
+    "lon": -2.6123,
+    "actividad": "",
+    "telefono": "946.202.166",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "ZELAIETA",
+    "lat": 43.1533,
+    "lon": -2.60694,
+    "actividad": "",
+    "telefono": "944.280.101",
+    "web": "https://www.aldapeta.eus/",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "BERRIZKO HAURRESKOLA-EGUZKILORE",
+    "lat": 43.1761,
+    "lon": -2.5763,
+    "actividad": "",
+    "telefono": "946.826.339",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [
+      "Infancia"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "UMERRI ESKOLA AKTIBOA",
+    "lat": 43.1748,
+    "lon": -2.57694,
+    "actividad": "",
+    "telefono": "651.903.082",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "TRAÑA MATIENA",
+    "lat": 43.1667,
+    "lon": -2.6123,
+    "actividad": "",
+    "telefono": "944.288.074",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "LEARRETA-MARKINA",
+    "lat": 43.1755,
+    "lon": -2.57868,
+    "actividad": "",
+    "telefono": "946.824.344",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "BERRIZ",
+    "lat": 43.1749,
+    "lon": -2.57657,
+    "actividad": "",
+    "telefono": "944.287.976",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "ELORRIOKO TXINTXIRRI IKASTOLA",
+    "lat": 43.1305,
+    "lon": -2.5449,
+    "actividad": "",
+    "telefono": "946.582.261",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "ELORRIO",
+    "lat": 43.1267,
+    "lon": -2.54479,
+    "actividad": "",
+    "telefono": "944.287.821",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "MARIA BITARTEKO",
+    "lat": 43.1319,
+    "lon": -2.5445,
+    "actividad": "",
+    "telefono": "946.231.626",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "LOURDESKO AMA",
+    "lat": 43.1344,
+    "lon": -2.53579,
+    "actividad": "",
+    "telefono": "946.820.056",
+    "web": "https://www.aldapeta.eus/",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "GARAMENDI-TAR AGUSTIN",
+    "lat": 43.1281,
+    "lon": -2.54285,
+    "actividad": "",
+    "telefono": "946.231.922",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "ELORRIO IKASTETXEA",
+    "lat": 43.1267,
+    "lon": -2.54479,
+    "actividad": "",
+    "telefono": "944.280.138",
+    "web": "https://www.aldapeta.eus/",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [
+      "Infancia",
+      "Juventud"
+    ],
+    "tipo": [
+      "Centro educativo"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Abadiño - Bienestar Social",
+    "lat": 43.1524,
+    "lon": -2.60805,
+    "actividad": "Informar y orientar sobre los recursos sociales existentes\nFacilitar el acceso a los servicios y prestaciones sociales a todas las personas que tienen derecho a ellas\nAyudar a las personas que viven en los municipios y no tienen cubiertas sus necesidades ",
+    "telefono": "946.200.492",
+    "web": "https://www.xn--abadio-0wa.org/es-ES/Servicios/BienestarSocial/Paginas/default.aspx",
+    "tematicas": [
+      "Salud mental/Bienestar emocional",
+      "Personas Mayores",
+      "Juventud",
+      "Infancia"
+    ],
+    "poblacion": [
+      "Población general",
+      "Personas migrantes",
+      "Personas cuidadoras",
+      "Personas adultas",
+      "Personas mayores",
+      "Diversidad funcional"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "Mancomunidad de Durango - Servicios Sociales",
+    "lat": 43.1673,
+    "lon": -2.6353,
+    "actividad": "Colabora con los Ayuntamientos de 11 municipios: Abadiño, Atxondo, Berriz, Durango, Elorrio, Garai, Iurreta, Izurtza, Mañaria, Zaldibar y Otxandio(no pertenece a esta OSI)\nOfrecen servicios sociales de base en el propio centro.\nAdemás:\n- Servicio de Perso",
+    "telefono": "946.200.492",
+    "web": "https://www.dma.eus/es-ES",
+    "tematicas": [
+      "Personas en riesgo de exclusión social",
+      "Salud comunitaria",
+      "Personas Mayores",
+      "Salud mental/Bienestar emocional",
+      "Infancia",
+      "Juventud",
+      "Mujeres",
+      "Hombres"
+    ],
+    "poblacion": [
+      "Población general",
+      "Personas migrantes",
+      "Personas cuidadoras",
+      "Personas adultas",
+      "Personas mayores",
+      "Diversidad funcional"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "Esku Hutsik - Asociación de duelo gestacional, perinatal y neonatal de Euskadi y Navarra",
+    "lat": 43.33,
+    "lon": -3.00693,
+    "actividad": "Ofrecen recursos materiales y humanos a familias para el proceso y acompañamiento del duelo.\nAcompañamiento burocrático tras el fallecimiento de un/a hije.\nTambién en embarazos con complicaciones, dudas, embarazos arcoiris...",
+    "telefono": "722.822.039",
+    "web": "https://eskuhutsik.es/",
+    "tematicas": [
+      "Salud mental/Bienestar emocional",
+      "Salud sexual y reproductiva",
+      "Personas cuidadoras"
+    ],
+    "poblacion": [
+      "Población general",
+      "Familias"
+    ],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Durango",
+      "Abadiño Elorrio Berriz",
+      "Aiara",
+      "Amorebieta",
+      "Arratia",
+      "Arrigorriaga",
+      "Basauri Ariz",
+      "Basauri Kareaga",
+      "Bermeo",
+      "Etxebarri",
+      "Galdakao",
+      "Gernika",
+      "Gernikaldea",
+      "Lekeitio",
+      "Llodio",
+      "Markina",
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Mujeres con Voz",
+    "lat": 43.3491,
+    "lon": -3.01055,
+    "actividad": "Apoyar la integración y promoción social de las mujeres migrantes alcanzando su autonomía en el desarrollo personal sin perder su identidad incentivando su acercamiento a la vida social y cultural, política y económica de Getxo y de la CAPV.",
+    "telefono": "655.603.809",
+    "web": "https://mujeresyvoces.blogspot.com/",
+    "tematicas": [
+      "Mujeres",
+      "Personas en riesgo de exclusión social",
+      "Personas migrantes",
+      "Personas cuidadoras"
+    ],
+    "poblacion": [
+      "Personas cuidadoras",
+      "Personas adultas",
+      "Personas migrantes"
+    ],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Amorebieta",
+      "Durango",
+      "Markina",
+      "Ondarroa",
+      "Aiara",
+      "Arratia",
+      "Arrigorriaga",
+      "Basauri Ariz",
+      "Basauri Kareaga",
+      "Bermeo",
+      "Etxebarri",
+      "Galdakao",
+      "Gernika",
+      "Gernikaldea",
+      "Lekeitio",
+      "Llodio"
+    ]
+  },
+  {
+    "titulo": "Contra el Cáncer en Bizkaia",
+    "lat": 43.2612,
+    "lon": -2.93657,
+    "actividad": "Área de promoción y prevención\nColaboración con educación y salud para la promoción de actividad de espacios sin humo, cáncer colorrectal y protección solar\n\nÁrea de Trabajo social\nPrestación de material ortopédico, ayudas económicas, pisos, acompañamient",
+    "telefono": "900.100.036",
+    "web": "https://www.contraelcancer.es/es",
+    "tematicas": [
+      "Salud mental/Bienestar emocional",
+      "Juventud",
+      "Personas Mayores",
+      "Infancia",
+      "Enfermedades crónicas"
+    ],
+    "poblacion": [
+      "Familias",
+      "Personas cuidadoras"
+    ],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Amorebieta",
+      "Durango",
+      "Markina",
+      "Ondarroa",
+      "Gernika",
+      "Gernikaldea",
+      "Lekeitio",
+      "Bermeo",
+      "Arratia",
+      "Galdakao",
+      "Etxebarri",
+      "Basauri Kareaga",
+      "Basauri Ariz",
+      "Arrigorriaga",
+      "Aiara"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Zaldibar - Kultura",
+    "lat": 43.1712,
+    "lon": -2.54679,
+    "actividad": "Gestiona Bibliotecas, Cultura y Deporte en el municipio\nPublicita periódicamente actividades relacionadas en este ámbito\nTiene actividad a través del canal de Whatasapp y Redes Sociales",
+    "telefono": "696.509.967",
+    "web": "https://www.zaldibar.eus/es-ES/Paginas/default.aspx",
+    "tematicas": [
+      "Cultura, ocio y naturaleza",
+      "Actividad física"
+    ],
+    "poblacion": [
+      "Población general"
+    ],
+    "tipo": [
+      "Institución pública"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "Residencia Atxarte",
+    "lat": 43.1483,
+    "lon": -2.61763,
+    "actividad": "Influir sobre el cuerpo social con objeto de conseguir la más completa toma de conciencia de la sociedad para que ésta, en su conjunto, acepte a las personas con discapacidad intelectual y colabore en el reconocimiento y ejercicio de sus derechos.\nProporc",
+    "telefono": "946.816.141",
+    "web": "https://gorabide.com/",
+    "tematicas": [
+      "Personas Mayores",
+      "Enfermedades crónicas",
+      "Salud mental/Bienestar emocional"
+    ],
+    "poblacion": [
+      "Familias",
+      "Diversidad funcional",
+      "Personas mayores"
+    ],
+    "tipo": [
+      "Sanidad"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz"
+    ]
+  },
+  {
+    "titulo": "MAIZTEGI",
+    "lat": 43.1775,
+    "lon": -2.63542,
+    "actividad": "",
+    "telefono": "946.810.937",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "IURRETA",
+    "lat": 43.1779,
+    "lon": -2.63599,
+    "actividad": "",
+    "telefono": "944.668.800",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "JUAN OROBIOGOITIA",
+    "lat": 43.1768,
+    "lon": -2.6351,
+    "actividad": "",
+    "telefono": "944.288.000",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "IURRETAKO HAURRESKOLA-ETORKIZUNA",
+    "lat": 43.1762,
+    "lon": -2.63556,
+    "actividad": "",
+    "telefono": "946.200.937",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "MAÑARIAKO HAURRESKOLA",
+    "lat": 43.1383,
+    "lon": -2.66126,
+    "actividad": "",
+    "telefono": "946.218.308",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "MANUELA ZUBIZARRETA",
+    "lat": 43.2543,
+    "lon": -2.47596,
+    "actividad": "Centro educativo",
+    "telefono": "946.168.159",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Markina"
+    ]
+  },
+  {
+    "titulo": "LEA-ARTIBAI BATXILERGOA",
+    "lat": 43.2685,
+    "lon": -2.49367,
+    "actividad": "Centro educativo",
+    "telefono": "946.169.002",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Markina"
+    ]
+  },
+  {
+    "titulo": "BERA-KRUZ IKASTOLA",
+    "lat": 43.2667,
+    "lon": -2.49673,
+    "actividad": "Centro educativo",
+    "telefono": "946.166.030",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Markina"
+    ]
+  },
+  {
+    "titulo": "LEA-ARTIBAI",
+    "lat": 43.2685,
+    "lon": -2.49367,
+    "actividad": "Centro educativo",
+    "telefono": "946.169.002",
+    "web": "https://www.aldapeta.eus/",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Markina"
+    ]
+  },
+  {
+    "titulo": "NTRA. SRA. DE LA ANTIGUA",
+    "lat": 43.3214,
+    "lon": -2.43227,
+    "actividad": "",
+    "telefono": "946.830.206",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "UNANUE-TAR PEDRO MARI",
+    "lat": 43.3207,
+    "lon": -2.42043,
+    "actividad": "",
+    "telefono": "946.134.063",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "ONDARROAKO HAURRESKOLA",
+    "lat": 43.3197,
+    "lon": -2.42701,
+    "actividad": "",
+    "telefono": "946.831.268",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "ONDARROA",
+    "lat": 43.3195,
+    "lon": -2.42528,
+    "actividad": "",
+    "telefono": "944.287.870",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "BERRIATUA",
+    "lat": 43.3096,
+    "lon": -2.46771,
+    "actividad": "",
+    "telefono": "946.139.063",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "BERRIATUKO HAURRESKOLA",
+    "lat": 43.3096,
+    "lon": -2.46771,
+    "actividad": "",
+    "telefono": "946.139.803",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "TARINE",
+    "lat": 43.3096,
+    "lon": -2.46771,
+    "actividad": "",
+    "telefono": "946.139.889",
+    "web": "https://www.aldapeta.eus/",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "KIROLENE",
+    "lat": 43.173,
+    "lon": -2.63648,
+    "actividad": "",
+    "telefono": "946.550.743",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "MARISTAK DURANGO BATXILERGOA",
+    "lat": 43.1709,
+    "lon": -2.63428,
+    "actividad": "",
+    "telefono": "946.810.058",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "ZALDUPE",
+    "lat": 43.3201,
+    "lon": -2.4293,
+    "actividad": "",
+    "telefono": "944.287.909",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "ZUBI-ZAHAR IKASTOLA",
+    "lat": 43.3196,
+    "lon": -2.43377,
+    "actividad": "",
+    "telefono": "946.831.416",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "DURANGOKO HAURRESKOLA-JULENE AZPEITIA",
+    "lat": 43.1681,
+    "lon": -2.63793,
+    "actividad": "",
+    "telefono": "946.203.516",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "BARTOLOME ERTZILLA",
+    "lat": 43.1698,
+    "lon": -2.6301,
+    "actividad": "",
+    "telefono": "946.030.035",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "IBAIZABAL KOOP. E. IKASTOLA",
+    "lat": 43.1612,
+    "lon": -2.63052,
+    "actividad": "",
+    "telefono": "946.215.877",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "FRAY JUAN DE ZUMARRAGA-DURANGO",
+    "lat": 43.1723,
+    "lon": -2.63651,
+    "actividad": "",
+    "telefono": "946.817.325",
+    "web": "",
+    "tematicas": [
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "ZABALARRA",
+    "lat": 43.1681,
+    "lon": -2.63793,
+    "actividad": "",
+    "telefono": "946.202.143",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "MARISTAK DURANGO",
+    "lat": 43.1709,
+    "lon": -2.63428,
+    "actividad": "",
+    "telefono": "946.810.058",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "SAN JOSE-JESUITAK",
+    "lat": 43.168,
+    "lon": -2.62956,
+    "actividad": "",
+    "telefono": "946.810.050",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "SAN ANTONIO IKASTETXEA",
+    "lat": 43.1656,
+    "lon": -2.631,
+    "actividad": "",
+    "telefono": "946.816.776",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "LANDAKO ESKOLA",
+    "lat": 43.1725,
+    "lon": -2.62877,
+    "actividad": "",
+    "telefono": "944.280.174",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "CEPA DURANGO",
+    "lat": 43.1641,
+    "lon": -2.62875,
+    "actividad": "",
+    "telefono": "946.814.253",
+    "web": "",
+    "tematicas": [
+      "Mujeres",
+      "Hombres",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "KURUTZIAGA IKASTOLA",
+    "lat": 43.167,
+    "lon": -2.63604,
+    "actividad": "",
+    "telefono": "946.200.822",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "NEVERS IKASTETXEA",
+    "lat": 43.1675,
+    "lon": -2.63568,
+    "actividad": "",
+    "telefono": "946.810.946",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "ZORNOTZAKO HAURRESKOLA",
+    "lat": 43.2277,
+    "lon": -3.03161,
+    "actividad": "",
+    "telefono": "946.730.346",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Amorebieta"
+    ]
+  },
+  {
+    "titulo": "URRITXE",
+    "lat": 43.2238,
+    "lon": -2.72581,
+    "actividad": "",
+    "telefono": "944.280.154",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Amorebieta"
+    ]
+  },
+  {
+    "titulo": "LAUAXETA IKASTOLA",
+    "lat": 43.2026,
+    "lon": -2.70305,
+    "actividad": "",
+    "telefono": "946.300.020",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Amorebieta"
+    ]
+  },
+  {
+    "titulo": "EL CARMELO",
+    "lat": 43.2211,
+    "lon": -2.73143,
+    "actividad": "",
+    "telefono": "946.730.902",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Amorebieta"
+    ]
+  },
+  {
+    "titulo": "ANDRA MARI IKASTOLA",
+    "lat": 43.2299,
+    "lon": -2.7373,
+    "actividad": "",
+    "telefono": "946.732.950",
+    "web": "https://andramarizornotzakoikastola.eus/es/ikastola/",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Educación"
+    ],
+    "uap": [
+      "Amorebieta"
+    ]
+  },
+  {
+    "titulo": "NÁUTICO BERMEO/BERMEOKO NAUTIKA",
+    "lat": 43.4217,
+    "lon": -2.72047,
+    "actividad": "",
+    "telefono": "946.881.862",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Bermeo"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de lekeitio",
+    "lat": 43.3639,
+    "lon": -2.5032,
+    "actividad": "",
+    "telefono": "946.034.100",
+    "web": "https://www.lekeitio.com/es-ES/Servicios/Intervencion/Paginas/default.aspx",
+    "tematicas": [
+      "Cultura, ocio y naturaleza"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Lekeitio"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Durango - Acción Social",
+    "lat": 43.1662,
+    "lon": -2.63148,
+    "actividad": "",
+    "telefono": "",
+    "web": "",
+    "tematicas": [
+      "Personas en riesgo de exclusión social",
+      "Personas cuidadoras",
+      "Personas migrantes",
+      "Salud comunitaria"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Bermeo - Servicio de asesoramiento en prevención de adicciones",
+    "lat": 43.4212,
+    "lon": -2.72268,
+    "actividad": "Martes, miércoles y jueves. Se trata de un servicio de información, asesoramiento y orientación para las familias. Gratuito y confidencial.",
+    "telefono": "675.025.018",
+    "web": "",
+    "tematicas": [
+      "Juventud",
+      "Adicciones",
+      "Población general"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Bermeo"
+    ]
+  },
+  {
+    "titulo": "LAMUZA",
+    "lat": 43.1456,
+    "lon": -2.9644,
+    "actividad": "",
+    "telefono": "945.187.214",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": []
+  },
+  {
+    "titulo": "Ayuntamiento de Bermeo - Social",
+    "lat": 43.4213,
+    "lon": -2.72206,
+    "actividad": "",
+    "telefono": "946.179.100",
+    "web": "https://www.bermeo.eus/index.html?L=2",
+    "tematicas": [
+      "Población general"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Bermeo"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Bermeo - Juventud",
+    "lat": 43.4213,
+    "lon": -2.72206,
+    "actividad": "",
+    "telefono": "946.179.100",
+    "web": "https://www.bermeo.eus/index.html?L=2",
+    "tematicas": [
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Bermeo"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Bermeo - Cultura",
+    "lat": 43.4203,
+    "lon": -2.72295,
+    "actividad": "",
+    "telefono": "946.179.100",
+    "web": "https://www.bermeo.eus/index.html?L=2",
+    "tematicas": [
+      "Cultura, ocio y naturaleza"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Bermeo"
+    ]
+  },
+  {
+    "titulo": "LA MILAGROSA",
+    "lat": 43.1473,
+    "lon": -2.9677,
+    "actividad": "",
+    "telefono": "946.720.701",
+    "web": "https://osakidetza-my.sharepoint.com/?login_hint=marina%2Ecifuentesgarcia%40osakidetza%2Eeus&source=waffle",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Llodio"
+    ]
+  },
+  {
+    "titulo": "Aldarte",
+    "lat": 43.2626,
+    "lon": -2.9281,
+    "actividad": "Trabajan en el ámbito de la diversidad sexual y de género. Asesoramiento jurídico, intervención social, apoyo psicológico y centro de documentación",
+    "telefono": "665.734.428",
+    "web": "https://www.aldarte.org/es/",
+    "tematicas": [
+      "Género e identidad",
+      "Personas migrantes",
+      "Salud sexual y reproductiva",
+      "Salud mental/Bienestar emocional",
+      "Personas en riesgo de exclusión social",
+      "Población general",
+      "Salud comunitaria"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Aiara",
+      "Amorebieta",
+      "Arratia",
+      "Arrigorriaga",
+      "Basauri Ariz",
+      "Basauri Kareaga",
+      "Bermeo",
+      "Durango",
+      "Etxebarri",
+      "Galdakao",
+      "Gernika",
+      "Gernikaldea",
+      "Lekeitio",
+      "Llodio",
+      "Markina",
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Mancomunidad de Lea-Artibai",
+    "lat": 43.2673,
+    "lon": -2.49477,
+    "actividad": "Servicios Sociales de Base con acceso a: Servicios sociales para personas mayores, ayuda a domicilio, familia y menores, familias cuidadoras, educación callejera a los jóvenes, tramitaciones, prestaciones económicas y técnicas.\nAdemás, iniciativas en el p",
+    "telefono": "946.169.068",
+    "web": "https://www.lea-artibai.org/eu-ES/Orriak/default.aspx",
+    "tematicas": [
+      "Población general"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Markina",
+      "Ondarroa",
+      "Lekeitio",
+      "Gernikaldea"
+    ]
+  },
+  {
+    "titulo": "KARMENGO AMA",
+    "lat": 43.2183,
+    "lon": -2.73595,
+    "actividad": "",
+    "telefono": "946.730.935",
+    "web": "https://www.karmengoama.eus/",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Amorebieta"
+    ]
+  },
+  {
+    "titulo": "LARREA",
+    "lat": 43.2281,
+    "lon": -2.73747,
+    "actividad": "",
+    "telefono": "946.730.430",
+    "web": "https://amorebietalarrea.hezkuntza.net/es/",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Amorebieta"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento Galdakao - Movilidad y Transporte",
+    "lat": 43.2311,
+    "lon": -2.84003,
+    "actividad": "",
+    "telefono": "944.010.590",
+    "web": "https://www.galdakao.eus/movilidad-transporte",
+    "tematicas": [
+      "Otro"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Galdakao"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento Galdakao - Deportes ",
+    "lat": 43.2298,
+    "lon": -2.84421,
+    "actividad": "",
+    "telefono": "944.010.572",
+    "web": "https://www.galdakao.eus/oferta-deportiva",
+    "tematicas": [
+      "Actividad física",
+      "Población general"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Galdakao"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento Galdakao - Participación Ciudadano",
+    "lat": 43.2311,
+    "lon": -2.84003,
+    "actividad": "De lunes a viernes de 9:00 a 13:30 horas",
+    "telefono": "944.010.583",
+    "web": "https://www.galdakao.eus/participacion-ciudadana",
+    "tematicas": [
+      "Población general",
+      "Cultura, ocio y naturaleza",
+      "Salud comunitaria"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Galdakao"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento Galdakao - Urbanismo",
+    "lat": 43.2311,
+    "lon": -2.84003,
+    "actividad": "",
+    "telefono": "944.010.566",
+    "web": "https://www.galdakao.eus/urbanismo-obras",
+    "tematicas": [
+      "Otro"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Galdakao"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento Galdakao - Educación",
+    "lat": 43.2298,
+    "lon": -2.84421,
+    "actividad": "",
+    "telefono": "",
+    "web": "https://www.galdakao.eus/programas-educacion",
+    "tematicas": [
+      "Cultura, ocio y naturaleza",
+      "Juventud",
+      "Población general"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Galdakao"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento Galdakao - Cultura ",
+    "lat": 43.2298,
+    "lon": -2.84421,
+    "actividad": "",
+    "telefono": "",
+    "web": "https://www.galdakao.eus/cultura",
+    "tematicas": [
+      "Cultura, ocio y naturaleza"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Galdakao"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Basauri",
+    "lat": 43.2354,
+    "lon": -2.89151,
+    "actividad": "",
+    "telefono": "944.666.300",
+    "web": "https://www.basauri.eus/es",
+    "tematicas": [
+      "Población general"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Basauri Ariz",
+      "Basauri Kareaga"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Llodio- Igualdad",
+    "lat": 43.1432,
+    "lon": -2.96274,
+    "actividad": "Gestiona Bibliotecas, Cultura y Deporte en el municipioPublicita periódicamente actividades relacionadas en este ámbitoTiene actividad a través del canal de Whatasapp y Redes Sociales",
+    "telefono": "944.034.480",
+    "web": "https://www.laudio.eus/es/servicios/servicio-de-igualdad",
+    "tematicas": [
+      "Mujeres",
+      "Salud sexual y reproductiva",
+      "Población general"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Llodio"
+    ]
+  },
+  {
+    "titulo": "Bizkaisida",
+    "lat": 43.2582,
+    "lon": -2.92832,
+    "actividad": "Prevención y Diagnóstico precoz de VIH y otras ITS Prevención de VIH y otras ITS en HSH y mujeres transgénero Acompañamiento sociosanitario y prevención de VIH y otras ITS para personas migrantes ",
+    "telefono": "609.039.900",
+    "web": "http://www.bizkaisida.com/",
+    "tematicas": [
+      "Personas en riesgo de exclusión social",
+      "Juventud",
+      "Enfermedades crónicas",
+      "Salud sexual y reproductiva",
+      "Adicciones",
+      "Salud comunitaria",
+      "Género e identidad",
+      "Personas migrantes"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Aiara",
+      "Amorebieta",
+      "Arratia",
+      "Arrigorriaga",
+      "Basauri Ariz",
+      "Basauri Kareaga",
+      "Bermeo",
+      "Durango",
+      "Etxebarri",
+      "Galdakao",
+      "Gernika",
+      "Gernikaldea",
+      "Lekeitio",
+      "Markina",
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "CEIP ARRANKUDIAGA",
+    "lat": 43.1707,
+    "lon": -2.92097,
+    "actividad": "",
+    "telefono": "",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arrigorriaga"
+    ]
+  },
+  {
+    "titulo": "ZEBERIOKO HAURRESKOLA",
+    "lat": 43.1483,
+    "lon": -2.8498,
+    "actividad": "",
+    "telefono": "",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arrigorriaga"
+    ]
+  },
+  {
+    "titulo": "CEIP ZUBIALDE",
+    "lat": 43.1486,
+    "lon": -2.85373,
+    "actividad": "",
+    "telefono": "",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arrigorriaga"
+    ]
+  },
+  {
+    "titulo": "ARRIGORRIAGAKO HAURRESKOLA",
+    "lat": 43.2046,
+    "lon": -2.89055,
+    "actividad": "",
+    "telefono": "946.713.969",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arrigorriaga"
+    ]
+  },
+  {
+    "titulo": "ARRIGORRIAGA",
+    "lat": 43.2104,
+    "lon": -2.88774,
+    "actividad": "",
+    "telefono": "944.280.106",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arrigorriaga"
+    ]
+  },
+  {
+    "titulo": "CONSTRUCCIÓN BIZKAIA ",
+    "lat": 43.2401,
+    "lon": -2.91718,
+    "actividad": "",
+    "telefono": "944.013.840",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arrigorriaga"
+    ]
+  },
+  {
+    "titulo": "ARRIGORRIAGA",
+    "lat": 43.2109,
+    "lon": -2.89311,
+    "actividad": "",
+    "telefono": "944.280.132",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arrigorriaga"
+    ]
+  },
+  {
+    "titulo": "BIHOTZ",
+    "lat": 43.2052,
+    "lon": -2.88864,
+    "actividad": "",
+    "telefono": "946.713.846",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arrigorriaga"
+    ]
+  },
+  {
+    "titulo": "Alcer Bizkaia",
+    "lat": 43.2558,
+    "lon": -2.91183,
+    "actividad": "Mejorar la calidad de vida y autonomía personal de las personas con Enfermedad Renal, y fortalecer sus redes de apoyo. Trabajamos en coordinación con los hospitales y centros de diálisis, proporcionando apoyo psicológico, social y nutricional",
+    "telefono": "944.598.750",
+    "web": "https://www.alcerbizkaia.org/",
+    "tematicas": [
+      "Enfermedades crónicas",
+      "Salud mental/Bienestar emocional",
+      "Población general"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Aiara",
+      "Amorebieta",
+      "Arratia",
+      "Arrigorriaga",
+      "Basauri Ariz",
+      "Basauri Kareaga",
+      "Bermeo",
+      "Durango",
+      "Etxebarri",
+      "Galdakao",
+      "Gernika",
+      "Gernikaldea",
+      "Lekeitio",
+      "Llodio",
+      "Markina",
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "LATIORRO",
+    "lat": 43.1382,
+    "lon": -2.95862,
+    "actividad": "",
+    "telefono": "946.721.874",
+    "web": "https://osakidetza-my.sharepoint.com/?login_hint=marina%2Ecifuentesgarcia%40osakidetza%2Eeus&source=waffle",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Llodio"
+    ]
+  },
+  {
+    "titulo": "AREATZA",
+    "lat": 43.1194,
+    "lon": -2.76798,
+    "actividad": "",
+    "telefono": "944.288.082",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arratia"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Amurrio",
+    "lat": 43.0526,
+    "lon": -3.00102,
+    "actividad": "Atencion ",
+    "telefono": "945.891.161",
+    "web": "https://amurrio.eus/eus/",
+    "tematicas": [
+      "Población general"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Aiara"
+    ]
+  },
+  {
+    "titulo": "Zehar Errefuxiatuekin",
+    "lat": 43.2536,
+    "lon": -2.9352,
+    "actividad": "Protección de personas refugiadas, apátridas, solicitantes de asilo y migradas en situación de vulnerabilidad. Nuestro trabajo es brindar apoyo integral, promoviendo la inclusión y defensa de sus derechos.",
+    "telefono": "944.059.566",
+    "web": "https://zehar.eus/",
+    "tematicas": [
+      "Personas en riesgo de exclusión social",
+      "Personas migrantes"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Aiara",
+      "Amorebieta",
+      "Arratia",
+      "Arrigorriaga",
+      "Basauri Ariz",
+      "Basauri Kareaga",
+      "Bermeo",
+      "Durango",
+      "Etxebarri",
+      "Galdakao",
+      "Gernika",
+      "Gernikaldea",
+      "Lekeitio",
+      "Llodio",
+      "Markina",
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Alcohólicos Anónimos Bizkaia",
+    "lat": 43.2588,
+    "lon": -2.92291,
+    "actividad": "",
+    "telefono": "944.150.701",
+    "web": "https://www.alcoholicos-anonimos.org/v_portal/apartados/apartado.asp?te=226",
+    "tematicas": [
+      "Personas en riesgo de exclusión social",
+      "Adicciones"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Abadiño Elorrio Berriz",
+      "Aiara",
+      "Amorebieta",
+      "Arratia",
+      "Arrigorriaga",
+      "Basauri Ariz",
+      "Basauri Kareaga",
+      "Bermeo",
+      "Durango",
+      "Etxebarri",
+      "Galdakao",
+      "Gernika",
+      "Gernikaldea",
+      "Lekeitio",
+      "Llodio",
+      "Markina",
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Gernika-Lumo - Servicios, medio ambiente y mercado municipal",
+    "lat": 43.315,
+    "lon": -2.67867,
+    "actividad": "Aguas. Alcantarillado. Basuras. Alumbrado público. Mantenimiento y conservación de viales. Parques y jardines. Obras públicas. Caminos vecinales. Mercado municipal",
+    "telefono": "946.270.207",
+    "web": "https://www.gernika-lumo.eus/es-ES/Ayuntamiento/Departamentos/Paginas/ofiadmin_09Obrasyservicios.aspx",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "Gorabide",
+    "lat": 43.2611,
+    "lon": -2.93668,
+    "actividad": "Asociación de familias de personas con discapacidad intelectual, pionera en Bizkaia, que trabaja desde 1962 por mejorar la calidad de vida de ese colectivo, y por promover una sociedad justa y solidaria dónde sea posible su plena inclusión.",
+    "telefono": "944.431.210",
+    "web": "https://gorabide.com/",
+    "tematicas": [
+      "Personas en riesgo de exclusión social",
+      "Personas cuidadoras",
+      "Ocupación/inserción laboral"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Markina",
+      "Ondarroa",
+      "Abadiño Elorrio Berriz",
+      "Durango",
+      "Galdakao",
+      "Gernika",
+      "Gernikaldea",
+      "Lekeitio"
+    ]
+  },
+  {
+    "titulo": "CEPA GERNIKA-LUMO",
+    "lat": 43.3154,
+    "lon": -2.6781,
+    "actividad": "",
+    "telefono": "946.270.157",
+    "web": "",
+    "tematicas": [
+      "Población general"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "Trabajo social orduña",
+    "lat": 42.8459,
+    "lon": -2.66953,
+    "actividad": "Intervencions dirigidas hacia la población de Orduña",
+    "telefono": "",
+    "web": "",
+    "tematicas": [
+      "Mujeres",
+      "Juventud",
+      "Hombres",
+      "Personas Mayores"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Aiara"
+    ]
+  },
+  {
+    "titulo": "Basoa",
+    "lat": 43.1446,
+    "lon": -2.78673,
+    "actividad": "Proyecto comunitario que impulsa iniciativas y actividades especialmente ligadas a la solidaridad con las personas migrantes y refugiadas, así como activistas provenientes de diferentes movimientos sociales.",
+    "telefono": "",
+    "web": "https://basoa.eus/es/",
+    "tematicas": [
+      "Personas migrantes",
+      "Salud comunitaria",
+      "Personas en riesgo de exclusión social"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Proyecto Comunitario"
+    ],
+    "uap": [
+      "Arratia"
+    ]
+  },
+  {
+    "titulo": "Uxu-Ondarroako Emakumeen taldea",
+    "lat": 43.3192,
+    "lon": -2.42519,
+    "actividad": "Lucha por los derechos de las mujeres No padecer violencia machista por el hecho de ser mujer, pobreza, paro, menores salarios, exclusión de los espacios de decisión, doble jornada... Participa en la comisisión de mujeres de Ondarroako Udala",
+    "telefono": "",
+    "web": "",
+    "tematicas": [
+      "Mujeres"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Andrabanda Feminista",
+    "lat": 43.3192,
+    "lon": -2.42519,
+    "actividad": "Reivindicar acciones feministas y hacer aportaciones en la lucha contra la violencai machista a través de la percusión y las canciones.",
+    "telefono": "",
+    "web": "",
+    "tematicas": [
+      "Mujeres"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Ondarroa - Deporte",
+    "lat": 43.3214,
+    "lon": -2.42109,
+    "actividad": "Preparar y organizar la programación cultural y deportiva anual.",
+    "telefono": "946.833.669",
+    "web": "https://www.ondarroa.eus/es-ES/Servicios/Interno/Deportes/Paginas/default.aspx",
+    "tematicas": [
+      "Actividad física"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Ondarroa - Cultura",
+    "lat": 43.3214,
+    "lon": -2.42109,
+    "actividad": "Preparar y organizar la programación cultural y deportiva anual.",
+    "telefono": "946.833.669",
+    "web": "https://www.ondarroa.eus/es-ES/Servicios/Interno/Kultura/Paginas/default.aspx",
+    "tematicas": [
+      "Cultura, ocio y naturaleza"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Ondarroa - Igualdad",
+    "lat": 43.3214,
+    "lon": -2.42109,
+    "actividad": "Fomentar políticas de igualdad",
+    "telefono": "946.134.008",
+    "web": "https://www.ondarroa.eus/es-ES/Servicios/Interno/Igualdad/Paginas/default.aspx",
+    "tematicas": [
+      "Mujeres",
+      "Hombres",
+      "Escuela de Salud"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Arringaingan",
+    "lat": 43.3192,
+    "lon": -2.42519,
+    "actividad": "Punto de encuentro con el objetivo de superar todos los miedos y vergüenzas en la calle. Fomentando las relaciones entre los participantes",
+    "telefono": "946.134.008",
+    "web": "",
+    "tematicas": [
+      "Mujeres"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Etxelila Ondarruko Emakumin",
+    "lat": 43.3192,
+    "lon": -2.42519,
+    "actividad": "",
+    "telefono": "664.547.367",
+    "web": "https://www.ondarroa.eus/es-ES/Servicios/Interno/Igualdad/Paginas/Etxelila.aspx",
+    "tematicas": [
+      "Mujeres",
+      "Salud sexual y reproductiva",
+      "Formación"
+    ],
+    "poblacion": [],
+    "tipo": [
+      "Institucion"
+    ],
+    "uap": [
+      "Ondarroa"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Amorebieta-Etxano",
+    "lat": 43.2204,
+    "lon": -2.73231,
+    "actividad": "",
+    "telefono": "9.463.000.002",
+    "web": "https://amorebieta-etxano.eus/es/",
+    "tematicas": [
+      "Población general"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Amorebieta"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Durango - Personas Mayores",
+    "lat": 43.1682,
+    "lon": -2.62981,
+    "actividad": "Desarrollar programas y acciones para el fomento de un envejecimiento activo, saludable, participativo e integrador en las personas mayores.",
+    "telefono": "944.657.451",
+    "web": "https://www.durango.eus/es/personas-mayores",
+    "tematicas": [
+      "Personas Mayores"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Gernika-Lumo - Cultura",
+    "lat": 43.3152,
+    "lon": -2.67874,
+    "actividad": "Desarrollar y promover actividades culturales, científicas y artísticas, prestando especial atención a todas las manifestaciones de la cultura vasca.\nApoyar e impulsar las iniciativas culturales de los diferentes grupos locales, promoviendo la participaci",
+    "telefono": "946.270.201",
+    "web": "https://www.gernika-lumo.eus/es-ES/Servicios/Cultura/Paginas/default.aspx",
+    "tematicas": [
+      "Cultura, ocio y naturaleza"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Gernika-Lumo - Turismo",
+    "lat": 43.3152,
+    "lon": -2.67822,
+    "actividad": "Información",
+    "telefono": "946.255.892",
+    "web": "https://gernikainfo.eus/",
+    "tematicas": [
+      "Cultura, ocio y naturaleza"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "Ayuntamiento de Durango",
+    "lat": 43.1662,
+    "lon": -2.63148,
+    "actividad": "",
+    "telefono": "946.030.000",
+    "web": "https://www.durango.eus/es/home",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Durango"
+    ]
+  },
+  {
+    "titulo": "OKONDOKO HAURRESKOLA-AURORA MENDIETA",
+    "lat": 43.153,
+    "lon": -3.0281,
+    "actividad": "",
+    "telefono": "945.898.429",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Llodio"
+    ]
+  },
+  {
+    "titulo": "URDUÑA",
+    "lat": 42.9923,
+    "lon": -3.00981,
+    "actividad": "",
+    "telefono": "945.383.504",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Aiara"
+    ]
+  },
+  {
+    "titulo": "NTRA. SRA. DE LA ANTIGUA",
+    "lat": 42.9944,
+    "lon": -3.0095,
+    "actividad": "",
+    "telefono": "945.384.830",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Aiara"
+    ]
+  },
+  {
+    "titulo": "Mancomunidad de Busturialdea - Inmigración",
+    "lat": 43.3121,
+    "lon": -2.67783,
+    "actividad": "Recursos:\nOfrecer atención y orientación a la población inmigrante que llega a nuestra comarca.\nOrganizar actividades de sensibilizacion para impulsar la convivencia intercultural.",
+    "telefono": "946.255.122",
+    "web": "https://www.busturialdekomankomunitatea.org/es-ES/Paginas/default.aspx",
+    "tematicas": [
+      "Personas en riesgo de exclusión social",
+      "Personas migrantes"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika",
+      "Gernikaldea"
+    ]
+  },
+  {
+    "titulo": "Mancomunidad de Busturialdea - Mujeres",
+    "lat": 43.3121,
+    "lon": -2.67783,
+    "actividad": "Se han diseñado programas específicos para colectivos de mujeres en situación de vulnerabilidad y poder atender sus necesidades:\nRecursos: \nServicio de asesoría legal para mujeres\nAtención a mujeres víctimas de violencia",
+    "telefono": "946.255.122",
+    "web": "https://www.busturialdekomankomunitatea.org/es-ES/Paginas/default.aspx",
+    "tematicas": [
+      "Mujeres",
+      "Personas en riesgo de exclusión social"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika",
+      "Gernikaldea"
+    ]
+  },
+  {
+    "titulo": "Mancomunidad de Busturialdea - Personas mayores",
+    "lat": 43.3121,
+    "lon": -2.67783,
+    "actividad": "Recursos:\nAyuda a domicilio\nServicio de teleasistencia\nSolicitudes de valoración de dependencia",
+    "telefono": "946.255.122",
+    "web": "https://www.busturialdekomankomunitatea.org/es-ES/Paginas/default.aspx",
+    "tematicas": [
+      "Personas Mayores",
+      "Personas en riesgo de exclusión social",
+      "Personas cuidadoras"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernikaldea",
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "Mancomunidad de Busturialdea - Infancia y familia",
+    "lat": 43.3121,
+    "lon": -2.67783,
+    "actividad": "Atención a niños, niñas y adolescentes en situación de riesgo social o desprotección, poniendo en marcha los recursos necesarios para respondera esta situación\n\nApoyo y orientación a familias con dificultades en la educación de sus hijos e hijas\n\nContamos",
+    "telefono": "946.255.122",
+    "web": "https://www.busturialdekomankomunitatea.org/es-ES/Paginas/default.aspx",
+    "tematicas": [
+      "Infancia",
+      "Personas en riesgo de exclusión social"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika",
+      "Gernikaldea"
+    ]
+  },
+  {
+    "titulo": "Astra",
+    "lat": 43.3124,
+    "lon": -2.67684,
+    "actividad": "Astra es una herramienta compartida, un espacio autogestionado por la comunidad que le rodea. Tiene carácter abierto y cualquier persona puede organizar alguna actividad en Astra o participar en sus decisiones y gestión. Vamos a decir más aún, sin la part",
+    "telefono": "",
+    "web": "https://astragernika.net/",
+    "tematicas": [
+      "Cultura, ocio y naturaleza",
+      "Población general"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "LEKEITIO",
+    "lat": 43.3643,
+    "lon": -2.50585,
+    "actividad": "",
+    "telefono": "944.287.874",
+    "web": "",
+    "tematicas": [
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Lekeitio"
+    ]
+  },
+  {
+    "titulo": "BERMEOKO HAURRESKOLA",
+    "lat": 43.4225,
+    "lon": -2.72282,
+    "actividad": "",
+    "telefono": "946.880.563",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Bermeo"
+    ]
+  },
+  {
+    "titulo": "LEKEITIOKO HAURRESKOLA",
+    "lat": 43.3607,
+    "lon": -2.50867,
+    "actividad": "",
+    "telefono": "946.243.392",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernikaldea"
+    ]
+  },
+  {
+    "titulo": "GAUTEGIZ ARTEAGAKO HAURRESKOLA",
+    "lat": 43.3516,
+    "lon": -2.6511,
+    "actividad": "",
+    "telefono": "946.240.135",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernikaldea"
+    ]
+  },
+  {
+    "titulo": "EAKO HAURRESKOLA-LORADI",
+    "lat": 43.3805,
+    "lon": -2.58409,
+    "actividad": "",
+    "telefono": "946.275.063",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Lekeitio"
+    ]
+  },
+  {
+    "titulo": "BUSTURIAKO HAURRESKOLA-SEINTXU",
+    "lat": 43.3679,
+    "lon": -2.70151,
+    "actividad": "",
+    "telefono": "946.871.006",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernikaldea"
+    ]
+  },
+  {
+    "titulo": "MUXIKAKO HAURRESKOLA",
+    "lat": 43.2909,
+    "lon": -2.6897,
+    "actividad": "",
+    "telefono": "946.258.579",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernikaldea"
+    ]
+  },
+  {
+    "titulo": "GERNIKA-LUMOKO HAURRESKOLA-ALLENDE SALAZAR",
+    "lat": 43.3132,
+    "lon": -2.68318,
+    "actividad": "",
+    "telefono": "946.250.105",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "AULESTIKO HAURRESKOLA",
+    "lat": 43.2958,
+    "lon": -2.56333,
+    "actividad": "",
+    "telefono": "946.279.034",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Lekeitio"
+    ]
+  },
+  {
+    "titulo": "IBARRANGELUKO HAURRESKOLA",
+    "lat": 43.3918,
+    "lon": -2.63275,
+    "actividad": "",
+    "telefono": "946.276.598",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernikaldea"
+    ]
+  },
+  {
+    "titulo": "BERMEO",
+    "lat": 43.4217,
+    "lon": -2.72473,
+    "actividad": "",
+    "telefono": "944.288.066",
+    "web": "",
+    "tematicas": [
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Bermeo"
+    ]
+  },
+  {
+    "titulo": "BARRUTIALDE",
+    "lat": 43.3243,
+    "lon": -2.66622,
+    "actividad": "",
+    "telefono": "944.287.829",
+    "web": "",
+    "tematicas": [
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernikaldea"
+    ]
+  },
+  {
+    "titulo": "GERNIKA",
+    "lat": 43.3196,
+    "lon": -2.67897,
+    "actividad": "",
+    "telefono": "944.287.817",
+    "web": "https://www.aldapeta.eus/",
+    "tematicas": [
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "MUSIKAIA",
+    "lat": 43.3626,
+    "lon": -2.5022,
+    "actividad": "",
+    "telefono": "946.128.549",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Lekeitio"
+    ]
+  },
+  {
+    "titulo": "JULI FORURIA",
+    "lat": 43.3173,
+    "lon": -2.67768,
+    "actividad": "",
+    "telefono": "946.255.878",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "ARRATIAKO ZULAIBAR LANBIDE IKASTEGIA ",
+    "lat": 43.1103,
+    "lon": -2.76118,
+    "actividad": "",
+    "telefono": "946.739.116",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arratia"
+    ]
+  },
+  {
+    "titulo": "ARRATIA",
+    "lat": 43.1602,
+    "lon": -2.77964,
+    "actividad": "",
+    "telefono": "944.287.934",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arratia"
+    ]
+  },
+  {
+    "titulo": "IGNACIO ZUBIZARRETA",
+    "lat": 43.1606,
+    "lon": -2.7762,
+    "actividad": "",
+    "telefono": "946.736.022",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arratia"
+    ]
+  },
+  {
+    "titulo": "JUAN B. EGUZKITZA MEABE",
+    "lat": 43.2088,
+    "lon": -2.77105,
+    "actividad": "",
+    "telefono": "944.280.120.000.000",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arratia"
+    ]
+  },
+  {
+    "titulo": "DIMA-UGARANA",
+    "lat": 43.1421,
+    "lon": -2.7496,
+    "actividad": "",
+    "telefono": "946.315.532",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arratia"
+    ]
+  },
+  {
+    "titulo": "ZEANURI",
+    "lat": 43.101,
+    "lon": -2.74838,
+    "actividad": "",
+    "telefono": "944.288.275",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arratia"
+    ]
+  },
+  {
+    "titulo": "BERMEO",
+    "lat": 43.4193,
+    "lon": -2.7383,
+    "actividad": "",
+    "telefono": "946.187.091",
+    "web": "https://www.aldapeta.eus/",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Bermeo"
+    ]
+  },
+  {
+    "titulo": "LAUDIOKO HAURRESKOLA-MATXINTXU",
+    "lat": 43.1445,
+    "lon": -2.96298,
+    "actividad": "",
+    "telefono": "944.049.543",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": []
+  },
+  {
+    "titulo": "LAUDIO",
+    "lat": 43.1438,
+    "lon": -2.96216,
+    "actividad": "",
+    "telefono": "945.187.028",
+    "web": "https://www.aldapeta.eus/",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": []
+  },
+  {
+    "titulo": "LAUDIO IKASTOLA",
+    "lat": 43.1465,
+    "lon": -2.96219,
+    "actividad": "",
+    "telefono": "946.726.737",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Llodio"
+    ]
+  },
+  {
+    "titulo": "AMAURRE",
+    "lat": 43.0494,
+    "lon": -3.00161,
+    "actividad": "",
+    "telefono": "945.393.544",
+    "web": "https://www.aldapeta.eus/",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Aiara"
+    ]
+  },
+  {
+    "titulo": "ZARAOBE",
+    "lat": 43.0499,
+    "lon": -3.00511,
+    "actividad": "",
+    "telefono": "945.393.000",
+    "web": "",
+    "tematicas": [
+      "Juventud",
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Aiara"
+    ]
+  },
+  {
+    "titulo": "MENDIKO ESKOLA",
+    "lat": 43.0564,
+    "lon": -3.0034,
+    "actividad": "",
+    "telefono": "945.890.481",
+    "web": "https://www.aldapeta.eus/",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Aiara"
+    ]
+  },
+  {
+    "titulo": "ARTEKO GURE AMA",
+    "lat": 43.1185,
+    "lon": -3.13341,
+    "actividad": "",
+    "telefono": "945.187.212",
+    "web": "https://www.aldapeta.eus/",
+    "tematicas": [
+      "Juventud",
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Aiara"
+    ]
+  },
+  {
+    "titulo": "ARESKETA IKASTOLA",
+    "lat": 43.0502,
+    "lon": -3.0101,
+    "actividad": "",
+    "telefono": "945.890.360",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Aiara"
+    ]
+  },
+  {
+    "titulo": "ZABALEKO",
+    "lat": 43.0607,
+    "lon": -2.99791,
+    "actividad": "",
+    "telefono": "945.890.462",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Aiara"
+    ]
+  },
+  {
+    "titulo": "AMURRIOKO HAURRESKOLA-TANTAKA",
+    "lat": 43.0506,
+    "lon": -3.00638,
+    "actividad": "",
+    "telefono": "945.891.816",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Aiara"
+    ]
+  },
+  {
+    "titulo": "ESCUELA MUNICIPAL DE MÚSICA DE AMURRIO",
+    "lat": 43.0494,
+    "lon": -3.00376,
+    "actividad": "",
+    "telefono": "945.891.003",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Aiara"
+    ]
+  },
+  {
+    "titulo": "LAUDIO IKASTOLA",
+    "lat": 43.1465,
+    "lon": -2.96219,
+    "actividad": "",
+    "telefono": "946.726.737",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Llodio"
+    ]
+  },
+  {
+    "titulo": "LAUDIO ALDE LANBIDE ESKOLA",
+    "lat": 43.144,
+    "lon": -2.96003,
+    "actividad": "",
+    "telefono": "946.720.505",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Llodio"
+    ]
+  },
+  {
+    "titulo": "ARRATIA",
+    "lat": 43.1353,
+    "lon": -2.78581,
+    "actividad": "",
+    "telefono": "946.739.205",
+    "web": "",
+    "tematicas": [],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arratia"
+    ]
+  },
+  {
+    "titulo": "DIMAKO HAURRESKOLA",
+    "lat": 43.1206,
+    "lon": -2.73393,
+    "actividad": "",
+    "telefono": "946.736.049",
+    "web": "",
+    "tematicas": [
+      "Infancia"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Arratia"
+    ]
+  },
+  {
+    "titulo": "JOSE ANTONIO EGIA",
+    "lat": 43.4203,
+    "lon": -2.72306,
+    "actividad": "",
+    "telefono": "946.179.156",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Bermeo"
+    ]
+  },
+  {
+    "titulo": "SEGUNDO OLAETA",
+    "lat": 43.3098,
+    "lon": -2.68027,
+    "actividad": "",
+    "telefono": "946.270.214",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "BERMEO-SAN FRANCISCO",
+    "lat": 43.4209,
+    "lon": -2.726,
+    "actividad": "",
+    "telefono": "946.880.477",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Bermeo"
+    ]
+  },
+  {
+    "titulo": "STA. MARÍA DEL SOCORRO",
+    "lat": 43.318,
+    "lon": -2.6749,
+    "actividad": "",
+    "telefono": "946.250.496",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "SAGRADO CORAZÓN",
+    "lat": 43.4214,
+    "lon": -2.72385,
+    "actividad": "",
+    "telefono": "946.880.222",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Bermeo"
+    ]
+  },
+  {
+    "titulo": "RESURRECCIÓN M. DE AZKUE IKASTOLA",
+    "lat": 43.36,
+    "lon": -2.50588,
+    "actividad": "",
+    "telefono": "946.840.959",
+    "web": "http://lekeitiokoikastola.eus/",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Lekeitio"
+    ]
+  },
+  {
+    "titulo": "SEBER ALTUBE IKASTOLA",
+    "lat": 43.3126,
+    "lon": -2.68284,
+    "actividad": "",
+    "telefono": "946.270.003",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "SAN FIDEL IKASTOLA",
+    "lat": 43.3177,
+    "lon": -2.67935,
+    "actividad": "",
+    "telefono": "946.250.980",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "ELEIZALDE IKASTOLA",
+    "lat": 43.4244,
+    "lon": -2.73563,
+    "actividad": "",
+    "telefono": "946.187.593",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Bermeo"
+    ]
+  },
+  {
+    "titulo": "URREGARAI",
+    "lat": 43.2941,
+    "lon": -2.567,
+    "actividad": "",
+    "telefono": "946.279.136",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Lekeitio"
+    ]
+  },
+  {
+    "titulo": "MUNDAKA",
+    "lat": 43.4073,
+    "lon": -2.69841,
+    "actividad": "",
+    "telefono": "944.287.922",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Bermeo"
+    ]
+  },
+  {
+    "titulo": "ISPASTER",
+    "lat": 43.3622,
+    "lon": -2.54416,
+    "actividad": "",
+    "telefono": "946.840.263",
+    "web": "https://www.aldapeta.eus/",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Lekeitio"
+    ]
+  },
+  {
+    "titulo": "MONTORRE",
+    "lat": 43.3541,
+    "lon": -2.64946,
+    "actividad": "",
+    "telefono": "944.287.902",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernikaldea"
+    ]
+  },
+  {
+    "titulo": "ALLENDE SALAZAR",
+    "lat": 43.3121,
+    "lon": -2.68285,
+    "actividad": "",
+    "telefono": "944.287.859",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Gernika"
+    ]
+  },
+  {
+    "titulo": "BERMEO",
+    "lat": 43.4195,
+    "lon": -2.7262,
+    "actividad": "",
+    "telefono": "946.186.433",
+    "web": "",
+    "tematicas": [
+      "Infancia",
+      "Juventud"
+    ],
+    "poblacion": [],
+    "tipo": [],
+    "uap": [
+      "Bermeo"
+    ]
+  }
+]
