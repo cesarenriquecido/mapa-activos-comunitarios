@@ -1,17 +1,79 @@
-
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="utf-8">
-<title>Prueba JSON</title>
+
+<title>Mapa Activos Comunitarios</title>
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9
+body{
+margin:0;
+padding:0;
+}
+
+#map{
+height:100vh;
+width:100%;
+}
+
+</style>
+
 </head>
+
 <body>
 
-<h2>Recursos cargados</h2>
+<div id="map"></div>
 
-<p>196</p>
+<script/unpkg.com/leaflet@1.9.4/dist/leaflet.js
 
-<p>Mancomunidad de Durango - Zaindu</p>
+<script>
+
+var map = L.map('map').setView(
+    [43.17,-2.62],
+    10
+);
+
+L.tileLayer(
+    'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {
+        maxZoom:19
+    }
+).addTo(map);
+
+fetch('recursos.json')
+
+.then(response => response.json())
+
+.then(datos => {
+
+    datos.forEach(r => {
+
+        L.circleMarker(
+            [r.lat,r.lon],
+            {
+                radius:6,
+                fillColor:"#2563eb",
+                color:"#ffffff",
+                weight:1,
+                fillOpacity:0.8
+            }
+        )
+
+        .addTo(map)
+
+        .bindPopup(
+            "<b>" +
+            r.titulo +
+            "</b>"
+        );
+
+    });
+
+});
+
+</script>
 
 </body>
 </html>
