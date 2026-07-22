@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Prueba nueva</title>
+<meta charset="utf-8">
+<title>Mapa Activos Comunitarios</title>
+
+https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+<style>
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+#map {
+    width:100%;
+    height:100vh;
+}
+
+</style>
+
 </head>
+
 <body>
 
-<h1>Hola GitHub Pages</h1>
+<div id="map"></div>
 
-<p>Si ves este texto, el index.html se ha actualizado.</p>
+<script src="https://unpkg.com/leafleteaflet.js
+
+<script>
+
+var map = L.map("map").setView(
+    [43.17, -2.62],
+    10
+);
+
+L.tileLayer(
+    "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    {
+        maxZoom: 19
+    }
+).addTo(map);
+
+L.marker(
+    [43.1711, -2.63055]
+).addTo(map)
+.bindPopup("Mancomunidad de Durango - Zaindu");
+
+</script>
 
 </body>
 </html>
