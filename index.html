@@ -4,21 +4,18 @@
 <meta charset="utf-8">
 <title>Mapa Activos Comunitarios</title>
 
-https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-
-<style>
-
+<link rel="stylesheet"
+href="https://unpkg.com/leafletle>
 html, body {
-    margin:0;
-    padding:0;
-    height:100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 #map {
-    width:100%;
-    height:100vh;
+    height: 100vh;
+    width: 100%;
 }
-
 </style>
 
 </head>
@@ -27,17 +24,17 @@ html, body {
 
 <div id="map"></div>
 
-<script src="https://unpkg.com/leafleteaflet.js
+/leaflet.js"></script>
 
 <script>
 
-var map = L.map("map").setView(
-    [43.17, -2.62],
-    10
+var map = L.map('map').setView(
+    [43.1711, -2.63055],
+    11
 );
 
 L.tileLayer(
-    "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
     {
         maxZoom: 19
     }
@@ -46,7 +43,7 @@ L.tileLayer(
 L.marker(
     [43.1711, -2.63055]
 ).addTo(map)
-.bindPopup("Mancomunidad de Durango - Zaindu");
+.bindPopup('Durango');
 
 </script>
 
