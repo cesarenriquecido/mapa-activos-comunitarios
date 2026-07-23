@@ -53,6 +53,86 @@ html, body {
   border-radius: 3px;
   font-size: 11px;
 }
+
+.filter-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+  max-width: 300px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.filter-container h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #2c3e50;
+  font-size: 14px;
+}
+
+.filter-group {
+  margin-bottom: 15px;
+}
+
+.filter-group h4 {
+  margin: 10px 0 8px 0;
+  color: #34495e;
+  font-size: 13px;
+  border-bottom: 1px solid #ecf0f1;
+  padding-bottom: 5px;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.filter-option input[type="checkbox"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.filter-option label {
+  cursor: pointer;
+  flex: 1;
+  font-size: 12px;
+  color: #555;
+}
+
+.filter-option input[type="checkbox"]:checked + label {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.clear-filters-btn {
+  width: 100%;
+  padding: 8px;
+  background-color: #34495e;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.clear-filters-btn:hover {
+  background-color: #2c3e50;
+}
+
+.filter-counter {
+  font-size: 11px;
+  color: #7f8c8d;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ecf0f1;
+}
 </style>
 
 </head>
@@ -61,12 +141,30 @@ html, body {
 
 <div id="map"></div>
 
+<div class="filter-container">
+  <h3>Filtros</h3>
+  <div class="filter-group">
+    <h4>Temáticas</h4>
+    <div id="tematicas-filter"></div>
+  </div>
+  <button class="clear-filters-btn" onclick="limpiarFiltros()">Limpiar filtros</button>
+  <div class="filter-counter">
+    <span id="counter">Mostrando todos los recursos</span>
+  </div>
+</div>
+
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
 
+// Variables globales
+var map;
+var marcadores = [];
+var tematicasSeleccionadas = new Set();
+var todosLosRecursos = [];
+
 // Crear el mapa
-var map = L.map('map').setView(
+map = L.map('map').setView(
   [43.1711, -2.63055],
   11
 );
@@ -82,52 +180,147 @@ L.tileLayer(
 fetch('recursos.json')
   .then(response => response.json())
   .then(recursos => {
-    // Crear marcadores para cada recurso
+    todosLosRecursos = recursos;
+    
+    // Extraer todas las temáticas únicas
+    let todasLasTematicas = new Set();
     recursos.forEach(recurso => {
-      // Crear contenido del popup
-      let popupContent = `
-        <div class="popup-content">
-          <h3>${recurso.titulo}</h3>
-      `;
-      
-      if (recurso.actividad) {
-        popupContent += `<p><strong>Actividad:</strong> ${recurso.actividad}</p>`;
-      }
-      
-      if (recurso.telefono) {
-        popupContent += `<p><strong>Teléfono:</strong> <a href="tel:${recurso.telefono.replace(/\D/g, '')}">${recurso.telefono}</a></p>`;
-      }
-      
-      if (recurso.web) {
-        popupContent += `<p><strong>Web:</strong> <a href="${recurso.web}" target="_blank">Visitar</a></p>`;
-      }
-      
       if (recurso.tematicas && recurso.tematicas.length > 0) {
-        popupContent += `<p><strong>Temáticas:</strong></p>`;
         recurso.tematicas.forEach(tematica => {
-          popupContent += `<span class="tematica">${tematica}</span>`;
+          todasLasTematicas.add(tematica);
         });
       }
-      
-      if (recurso.poblacion && recurso.poblacion.length > 0) {
-        popupContent += `<p><strong>Población:</strong> ${recurso.poblacion.join(', ')}</p>`;
-      }
-      
-      if (recurso.tipo && recurso.tipo.length > 0) {
-        popupContent += `<p><strong>Tipo:</strong> ${recurso.tipo.join(', ')}</p>`;
-      }
-      
-      popupContent += `</div>`;
-      
-      // Crear marcador
-      L.marker(
-        [recurso.lat, recurso.lon]
-      )
-      .bindPopup(popupContent)
-      .addTo(map);
     });
+    
+    // Crear checkboxes para las temáticas
+    let tematicasArray = Array.from(todasLasTematicas).sort();
+    let filterHtml = '';
+    
+    tematicasArray.forEach(tematica => {
+      filterHtml += `
+        <div class="filter-option">
+          <input type="checkbox" id="tematica-${tematica}" value="${tematica}" 
+                 onchange="actualizarFiltros()">
+          <label for="tematica-${tematica}">${tematica}</label>
+        </div>
+      `;
+    });
+    
+    document.getElementById('tematicas-filter').innerHTML = filterHtml;
+    
+    // Crear todos los marcadores inicialmente
+    crearMarcadores(recursos);
   })
   .catch(error => console.error('Error cargando recursos.json:', error));
+
+function crearMarcadores(recursos) {
+  // Limpiar marcadores anteriores
+  marcadores.forEach(marcador => map.removeLayer(marcador));
+  marcadores = [];
+  
+  // Crear marcadores para cada recurso
+  recursos.forEach(recurso => {
+    // Crear contenido del popup
+    let popupContent = `
+      <div class="popup-content">
+        <h3>${recurso.titulo}</h3>
+    `;
+    
+    if (recurso.actividad) {
+      popupContent += `<p><strong>Actividad:</strong> ${recurso.actividad}</p>`;
+    }
+    
+    if (recurso.telefono) {
+      popupContent += `<p><strong>Teléfono:</strong> <a href="tel:${recurso.telefono.replace(/\D/g, '')}">${recurso.telefono}</a></p>`;
+    }
+    
+    if (recurso.web) {
+      popupContent += `<p><strong>Web:</strong> <a href="${recurso.web}" target="_blank">Visitar</a></p>`;
+    }
+    
+    if (recurso.tematicas && recurso.tematicas.length > 0) {
+      popupContent += `<p><strong>Temáticas:</strong></p>`;
+      recurso.tematicas.forEach(tematica => {
+        popupContent += `<span class="tematica">${tematica}</span>`;
+      });
+    }
+    
+    if (recurso.poblacion && recurso.poblacion.length > 0) {
+      popupContent += `<p><strong>Población:</strong> ${recurso.poblacion.join(', ')}</p>`;
+    }
+    
+    if (recurso.tipo && recurso.tipo.length > 0) {
+      popupContent += `<p><strong>Tipo:</strong> ${recurso.tipo.join(', ')}</p>`;
+    }
+    
+    popupContent += `</div>`;
+    
+    // Crear marcador
+    let marcador = L.marker(
+      [recurso.lat, recurso.lon]
+    )
+    .bindPopup(popupContent)
+    .addTo(map);
+    
+    marcadores.push(marcador);
+  });
+}
+
+function actualizarFiltros() {
+  // Obtener temáticas seleccionadas
+  tematicasSeleccionadas.clear();
+  document.querySelectorAll('.filter-option input[type="checkbox"]:checked').forEach(checkbox => {
+    tematicasSeleccionadas.add(checkbox.value);
+  });
+  
+  // Filtrar recursos
+  let recursosFiltrados;
+  
+  if (tematicasSeleccionadas.size === 0) {
+    // Si no hay filtros seleccionados, mostrar todos
+    recursosFiltrados = todosLosRecursos;
+  } else {
+    // Mostrar solo recursos que tengan al menos una temática seleccionada
+    recursosFiltrados = todosLosRecursos.filter(recurso => {
+      if (!recurso.tematicas || recurso.tematicas.length === 0) {
+        return false;
+      }
+      return recurso.tematicas.some(tematica => tematicasSeleccionadas.has(tematica));
+    });
+  }
+  
+  // Actualizar marcadores
+  crearMarcadores(recursosFiltrados);
+  
+  // Actualizar contador
+  actualizarContador(recursosFiltrados.length);
+}
+
+function limpiarFiltros() {
+  // Desmarcar todos los checkboxes
+  document.querySelectorAll('.filter-option input[type="checkbox"]').forEach(checkbox => {
+    checkbox.checked = false;
+  });
+  
+  // Limpiar selección de temáticas
+  tematicasSeleccionadas.clear();
+  
+  // Mostrar todos los marcadores
+  crearMarcadores(todosLosRecursos);
+  
+  // Actualizar contador
+  actualizarContador(todosLosRecursos.length);
+}
+
+function actualizarContador(count) {
+  let mensaje;
+  if (tematicasSeleccionadas.size === 0) {
+    mensaje = `Mostrando todos los recursos (${count})`;
+  } else {
+    mensaje = `Mostrando ${count} recurso${count !== 1 ? 's' : ''} (${tematicasSeleccionadas.size} filtro${tematicasSeleccionadas.size !== 1 ? 's' : ''} activo${tematicasSeleccionadas.size !== 1 ? 's' : ''})`;
+  }
+  document.getElementById('counter').textContent = mensaje;
+}
 
 </script>
 
