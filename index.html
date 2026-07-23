@@ -353,10 +353,20 @@ html, body {
   <!-- Sección UAP -->
   <div class="accordion-section">
     <div class="accordion-header" onclick="toggleAccordion(this)">
-      <span><i class="fas fa-chevron-right"></i> Unidades de Atención</span>
+      <span><i class="fas fa-chevron-right"></i> Unidad de Atención Primaria (UAP)</span>
     </div>
     <div class="accordion-content">
       <div id="uap-filter"></div>
+    </div>
+  </div>
+  
+  <!-- Sección Población Diana -->
+  <div class="accordion-section">
+    <div class="accordion-header" onclick="toggleAccordion(this)">
+      <span><i class="fas fa-chevron-right"></i> Población Diana</span>
+    </div>
+    <div class="accordion-content">
+      <div id="poblacion-filter"></div>
     </div>
   </div>
   
@@ -426,11 +436,29 @@ const iconosTemáticas = {
   'derechos': 'fas fa-balance-scale'
 };
 
+// Mapeo de población diana a iconos
+const iconosPoblacion = {
+  'población general': 'fas fa-people-group',
+  'familias': 'fas fa-house-person',
+  'infancia': 'fas fa-child',
+  'juventud': 'fas fa-users',
+  'personas mayores': 'fas fa-user-cog',
+  'personas cuidadoras': 'fas fa-hand-holding-heart',
+  'mujeres': 'fas fa-female',
+  'hombres': 'fas fa-male',
+  'mujer': 'fas fa-female',
+  'personas migrantes': 'fas fa-person-walking',
+  'personas en riesgo de exclusión social': 'fas fa-exclamation-triangle',
+  'diversidad funcional': 'fas fa-wheelchair',
+  'personas adultas': 'fas fa-user'
+};
+
 // Variables globales
 var map;
 var marcadores = [];
 var tematicasSeleccionadas = new Set();
 var uapSeleccionadas = new Set();
+var poblacionSeleccionada = new Set();
 var todosLosRecursos = [];
 var recursosFiltradosActuales = [];
 
@@ -462,6 +490,23 @@ function obtenerIconoTematica(tematica) {
   }
   
   return 'fas fa-tag';
+}
+
+// Función para obtener el icono de población diana
+function obtenerIconoPoblacion(poblacion) {
+  const poblacionNormalizada = poblacion.toLowerCase().trim();
+  
+  if (iconosPoblacion[poblacionNormalizada]) {
+    return iconosPoblacion[poblacionNormalizada];
+  }
+  
+  for (let [key, icon] of Object.entries(iconosPoblacion)) {
+    if (poblacionNormalizada.includes(key) || key.includes(poblacionNormalizada)) {
+      return icon;
+    }
+  }
+  
+  return 'fas fa-user';
 }
 
 // Función para alternar acordeones
@@ -533,6 +578,34 @@ fetch('recursos.json')
     
     document.getElementById('uap-filter').innerHTML = filterHtmlUAP;
     
+    // Extraer toda la población diana única
+    let todaPoblacion = new Set();
+    recursos.forEach(recurso => {
+      if (recurso.poblacion && recurso.poblacion.length > 0) {
+        recurso.poblacion.forEach(poblacion => {
+          todaPoblacion.add(poblacion);
+        });
+      }
+    });
+    
+    // Crear checkboxes para la población diana
+    let poblacionArray = Array.from(todaPoblacion).sort();
+    let filterHtmlPoblacion = '';
+    
+    poblacionArray.forEach(poblacion => {
+      const icono = obtenerIconoPoblacion(poblacion);
+      filterHtmlPoblacion += `
+        <div class="filter-option">
+          <input type="checkbox" id="poblacion-${poblacion}" value="${poblacion}" 
+                 onchange="actualizarFiltros()">
+          <i class="filter-icon ${icono}"></i>
+          <label for="poblacion-${poblacion}">${poblacion}</label>
+        </div>
+      `;
+    });
+    
+    document.getElementById('poblacion-filter').innerHTML = filterHtmlPoblacion;
+    
     // Crear todos los marcadores inicialmente
     crearMarcadores(recursos);
   })
@@ -579,7 +652,7 @@ function crearMarcadores(recursos) {
     }
     
     if (recurso.uap && recurso.uap.length > 0) {
-      popupContent += `<p><strong>Unidades de Atención:</strong> ${recurso.uap.join(', ')}</p>`;
+      popupContent += `<p><strong>Unidad de Atención Primaria:</strong> ${recurso.uap.join(', ')}</p>`;
     }
     
     popupContent += `</div>`;
@@ -608,6 +681,12 @@ function actualizarFiltros() {
     uapSeleccionadas.add(checkbox.value);
   });
   
+  // Obtener población seleccionada
+  poblacionSeleccionada.clear();
+  document.querySelectorAll('#poblacion-filter input[type="checkbox"]:checked').forEach(checkbox => {
+    poblacionSeleccionada.add(checkbox.value);
+  });
+  
   // Filtrar recursos
   let recursosFiltrados = todosLosRecursos.filter(recurso => {
     // Filtro de temáticas
@@ -630,7 +709,17 @@ function actualizarFiltros() {
       }
     }
     
-    return cumpleTematica && cumpleUAP;
+    // Filtro de población diana
+    let cumplePoblacion = true;
+    if (poblacionSeleccionada.size > 0) {
+      if (!recurso.poblacion || recurso.poblacion.length === 0) {
+        cumplePoblacion = false;
+      } else {
+        cumplePoblacion = recurso.poblacion.some(poblacion => poblacionSeleccionada.has(poblacion));
+      }
+    }
+    
+    return cumpleTematica && cumpleUAP && cumplePoblacion;
   });
   
   recursosFiltradosActuales = recursosFiltrados;
@@ -654,6 +743,7 @@ function limpiarFiltros() {
   // Limpiar selecciones
   tematicasSeleccionadas.clear();
   uapSeleccionadas.clear();
+  poblacionSeleccionada.clear();
   
   // Mostrar todos los marcadores
   recursosFiltradosActuales = todosLosRecursos;
@@ -667,7 +757,7 @@ function limpiarFiltros() {
 }
 
 function actualizarContador(count) {
-  let filtrosActivos = tematicasSeleccionadas.size + uapSeleccionadas.size;
+  let filtrosActivos = tematicasSeleccionadas.size + uapSeleccionadas.size + poblacionSeleccionada.size;
   let mensaje;
   
   if (filtrosActivos === 0) {
