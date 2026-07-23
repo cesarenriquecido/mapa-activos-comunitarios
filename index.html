@@ -72,30 +72,66 @@ html, body {
 
 .filter-container h3 {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: #2c3e50;
   font-size: 16px;
   font-weight: 600;
   display: flex;
   align-items: center;
   gap: 8px;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 10px;
 }
 
 .filter-container h3 i {
   color: #3498db;
 }
 
-.filter-group {
-  margin-bottom: 15px;
+.accordion-section {
+  margin-bottom: 10px;
 }
 
-.filter-group h4 {
-  margin: 10px 0 12px 0;
+.accordion-header {
+  background-color: #f8f9fa;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
   color: #34495e;
   font-size: 13px;
-  font-weight: 600;
-  border-bottom: 2px solid #ecf0f1;
-  padding-bottom: 6px;
+  transition: all 0.3s ease;
+  border: 1px solid #ecf0f1;
+  user-select: none;
+}
+
+.accordion-header:hover {
+  background-color: #eff2f5;
+  border-color: #3498db;
+}
+
+.accordion-header i {
+  color: #3498db;
+  font-size: 12px;
+  transition: transform 0.3s ease;
+}
+
+.accordion-header.active i {
+  transform: rotate(90deg);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0;
+}
+
+.accordion-content.active {
+  max-height: 500px;
+  padding: 10px 0;
 }
 
 .filter-option {
@@ -105,6 +141,7 @@ html, body {
   padding: 6px 8px;
   border-radius: 5px;
   transition: background-color 0.2s ease;
+  margin-left: 8px;
 }
 
 .filter-option:hover {
@@ -155,7 +192,7 @@ html, body {
   border-radius: 5px;
   cursor: pointer;
   font-size: 13px;
-  margin-top: 10px;
+  margin-top: 15px;
   font-weight: 600;
   transition: background-color 0.3s ease;
   display: flex;
@@ -302,10 +339,27 @@ html, body {
 
 <div class="filter-container">
   <h3><i class="fas fa-sliders-h"></i> Filtros</h3>
-  <div class="filter-group">
-    <h4>Temáticas</h4>
-    <div id="tematicas-filter"></div>
+  
+  <!-- Sección Temáticas -->
+  <div class="accordion-section">
+    <div class="accordion-header active" onclick="toggleAccordion(this)">
+      <span><i class="fas fa-chevron-right"></i> Temáticas</span>
+    </div>
+    <div class="accordion-content active">
+      <div id="tematicas-filter"></div>
+    </div>
   </div>
+  
+  <!-- Sección UAP -->
+  <div class="accordion-section">
+    <div class="accordion-header" onclick="toggleAccordion(this)">
+      <span><i class="fas fa-chevron-right"></i> Unidades de Atención</span>
+    </div>
+    <div class="accordion-content">
+      <div id="uap-filter"></div>
+    </div>
+  </div>
+  
   <button class="clear-filters-btn" onclick="limpiarFiltros()"><i class="fas fa-times"></i> Limpiar filtros</button>
   <div class="filter-counter">
     <i class="fas fa-info-circle"></i><span id="counter">Mostrando todos los recursos</span>
@@ -376,6 +430,7 @@ const iconosTemáticas = {
 var map;
 var marcadores = [];
 var tematicasSeleccionadas = new Set();
+var uapSeleccionadas = new Set();
 var todosLosRecursos = [];
 var recursosFiltradosActuales = [];
 
@@ -396,20 +451,24 @@ L.tileLayer(
 function obtenerIconoTematica(tematica) {
   const tematicaNormalizada = tematica.toLowerCase().trim();
   
-  // Buscar coincidencia exacta
   if (iconosTemáticas[tematicaNormalizada]) {
     return iconosTemáticas[tematicaNormalizada];
   }
   
-  // Buscar coincidencia parcial
   for (let [key, icon] of Object.entries(iconosTemáticas)) {
     if (tematicaNormalizada.includes(key) || key.includes(tematicaNormalizada)) {
       return icon;
     }
   }
   
-  // Icono por defecto
   return 'fas fa-tag';
+}
+
+// Función para alternar acordeones
+function toggleAccordion(header) {
+  header.classList.toggle('active');
+  const content = header.nextElementSibling;
+  content.classList.toggle('active');
 }
 
 // Cargar recursos desde JSON
@@ -431,11 +490,11 @@ fetch('recursos.json')
     
     // Crear checkboxes para las temáticas
     let tematicasArray = Array.from(todasLasTematicas).sort();
-    let filterHtml = '';
+    let filterHtmlTematicas = '';
     
     tematicasArray.forEach(tematica => {
       const icono = obtenerIconoTematica(tematica);
-      filterHtml += `
+      filterHtmlTematicas += `
         <div class="filter-option">
           <input type="checkbox" id="tematica-${tematica}" value="${tematica}" 
                  onchange="actualizarFiltros()">
@@ -445,7 +504,34 @@ fetch('recursos.json')
       `;
     });
     
-    document.getElementById('tematicas-filter').innerHTML = filterHtml;
+    document.getElementById('tematicas-filter').innerHTML = filterHtmlTematicas;
+    
+    // Extraer todas las UAP únicas
+    let todasLasUAP = new Set();
+    recursos.forEach(recurso => {
+      if (recurso.uap && recurso.uap.length > 0) {
+        recurso.uap.forEach(uap => {
+          todasLasUAP.add(uap);
+        });
+      }
+    });
+    
+    // Crear checkboxes para las UAP
+    let uapArray = Array.from(todasLasUAP).sort();
+    let filterHtmlUAP = '';
+    
+    uapArray.forEach(uap => {
+      filterHtmlUAP += `
+        <div class="filter-option">
+          <input type="checkbox" id="uap-${uap}" value="${uap}" 
+                 onchange="actualizarFiltros()">
+          <i class="filter-icon fas fa-map-marker-alt"></i>
+          <label for="uap-${uap}">${uap}</label>
+        </div>
+      `;
+    });
+    
+    document.getElementById('uap-filter').innerHTML = filterHtmlUAP;
     
     // Crear todos los marcadores inicialmente
     crearMarcadores(recursos);
@@ -492,6 +578,10 @@ function crearMarcadores(recursos) {
       popupContent += `<p><strong>Tipo:</strong> ${recurso.tipo.join(', ')}</p>`;
     }
     
+    if (recurso.uap && recurso.uap.length > 0) {
+      popupContent += `<p><strong>Unidades de Atención:</strong> ${recurso.uap.join(', ')}</p>`;
+    }
+    
     popupContent += `</div>`;
     
     // Crear marcador
@@ -508,25 +598,40 @@ function crearMarcadores(recursos) {
 function actualizarFiltros() {
   // Obtener temáticas seleccionadas
   tematicasSeleccionadas.clear();
-  document.querySelectorAll('.filter-option input[type="checkbox"]:checked').forEach(checkbox => {
+  document.querySelectorAll('#tematicas-filter input[type="checkbox"]:checked').forEach(checkbox => {
     tematicasSeleccionadas.add(checkbox.value);
   });
   
-  // Filtrar recursos
-  let recursosFiltrados;
+  // Obtener UAP seleccionadas
+  uapSeleccionadas.clear();
+  document.querySelectorAll('#uap-filter input[type="checkbox"]:checked').forEach(checkbox => {
+    uapSeleccionadas.add(checkbox.value);
+  });
   
-  if (tematicasSeleccionadas.size === 0) {
-    // Si no hay filtros seleccionados, mostrar todos
-    recursosFiltrados = todosLosRecursos;
-  } else {
-    // Mostrar solo recursos que tengan al menos una temática seleccionada
-    recursosFiltrados = todosLosRecursos.filter(recurso => {
+  // Filtrar recursos
+  let recursosFiltrados = todosLosRecursos.filter(recurso => {
+    // Filtro de temáticas
+    let cumpleTematica = true;
+    if (tematicasSeleccionadas.size > 0) {
       if (!recurso.tematicas || recurso.tematicas.length === 0) {
-        return false;
+        cumpleTematica = false;
+      } else {
+        cumpleTematica = recurso.tematicas.some(tematica => tematicasSeleccionadas.has(tematica));
       }
-      return recurso.tematicas.some(tematica => tematicasSeleccionadas.has(tematica));
-    });
-  }
+    }
+    
+    // Filtro de UAP
+    let cumpleUAP = true;
+    if (uapSeleccionadas.size > 0) {
+      if (!recurso.uap || recurso.uap.length === 0) {
+        cumpleUAP = false;
+      } else {
+        cumpleUAP = recurso.uap.some(uap => uapSeleccionadas.has(uap));
+      }
+    }
+    
+    return cumpleTematica && cumpleUAP;
+  });
   
   recursosFiltradosActuales = recursosFiltrados;
   
@@ -542,12 +647,13 @@ function actualizarFiltros() {
 
 function limpiarFiltros() {
   // Desmarcar todos los checkboxes
-  document.querySelectorAll('.filter-option input[type="checkbox"]').forEach(checkbox => {
+  document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
     checkbox.checked = false;
   });
   
-  // Limpiar selección de temáticas
+  // Limpiar selecciones
   tematicasSeleccionadas.clear();
+  uapSeleccionadas.clear();
   
   // Mostrar todos los marcadores
   recursosFiltradosActuales = todosLosRecursos;
@@ -561,11 +667,13 @@ function limpiarFiltros() {
 }
 
 function actualizarContador(count) {
+  let filtrosActivos = tematicasSeleccionadas.size + uapSeleccionadas.size;
   let mensaje;
-  if (tematicasSeleccionadas.size === 0) {
+  
+  if (filtrosActivos === 0) {
     mensaje = `Mostrando todos los recursos (${count})`;
   } else {
-    mensaje = `Mostrando ${count} recurso${count !== 1 ? 's' : ''} (${tematicasSeleccionadas.size} filtro${tematicasSeleccionadas.size !== 1 ? 's' : ''} activo${tematicasSeleccionadas.size !== 1 ? 's' : ''})`;
+    mensaje = `Mostrando ${count} recurso${count !== 1 ? 's' : ''} (${filtrosActivos} filtro${filtrosActivos !== 1 ? 's' : ''} activo${filtrosActivos !== 1 ? 's' : ''})`;
   }
   document.getElementById('counter').textContent = mensaje;
 }
@@ -576,7 +684,6 @@ function buscarRecursos() {
   const clearSearchBtn = document.getElementById('clearSearch');
   const query = searchInput.value.toLowerCase().trim();
   
-  // Mostrar/ocultar botón de limpiar
   if (query.length > 0) {
     clearSearchBtn.classList.add('active');
   } else {
@@ -588,12 +695,10 @@ function buscarRecursos() {
     return;
   }
   
-  // Buscar recursos que coincidan
   const resultados = recursosFiltradosActuales.filter(recurso => 
     recurso.titulo.toLowerCase().includes(query)
   );
   
-  // Mostrar resultados
   if (resultados.length === 0) {
     searchResults.innerHTML = '<div class="search-no-results">No se encontraron resultados</div>';
   } else {
@@ -622,18 +727,14 @@ function irAlRecurso(index, desdeBusqueda = false) {
   const recurso = recursos[index];
   
   if (recurso) {
-    // Encontrar el marcador correspondiente
     const marcador = marcadores.find(m => {
       const latLng = m.getLatLng();
       return latLng.lat === recurso.lat && latLng.lng === recurso.lon;
     });
     
     if (marcador) {
-      // Centrar el mapa y abrir el popup
       map.setView([recurso.lat, recurso.lon], 14);
       marcador.openPopup();
-      
-      // Limpiar búsqueda
       limpiarBusqueda();
     }
   }
