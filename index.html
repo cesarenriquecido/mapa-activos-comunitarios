@@ -185,6 +185,113 @@ html, body {
   color: #3498db;
   margin-right: 4px;
 }
+
+/* Estilos para el buscador */
+.search-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-box {
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 280px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 13px;
+  flex: 1;
+  color: #2c3e50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-box input::placeholder {
+  color: #95a5a6;
+}
+
+.search-box i {
+  color: #3498db;
+  font-size: 14px;
+}
+
+.search-box .clear-search {
+  cursor: pointer;
+  color: #95a5a6;
+  font-size: 14px;
+  transition: color 0.2s ease;
+  display: none;
+}
+
+.search-box .clear-search:hover {
+  color: #e74c3c;
+}
+
+.search-box .clear-search.active {
+  display: block;
+}
+
+.search-results {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  max-width: 300px;
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 8px;
+  display: none;
+  z-index: 1001;
+}
+
+.search-results.active {
+  display: block;
+}
+
+.search-result-item {
+  padding: 10px 12px;
+  border-bottom: 1px solid #ecf0f1;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-size: 12px;
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.search-result-item:hover {
+  background-color: #f8f9fa;
+}
+
+.search-result-title {
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.search-result-activity {
+  color: #7f8c8d;
+  font-size: 11px;
+}
+
+.search-no-results {
+  padding: 15px;
+  text-align: center;
+  color: #95a5a6;
+  font-size: 12px;
+}
 </style>
 
 </head>
@@ -203,6 +310,15 @@ html, body {
   <div class="filter-counter">
     <i class="fas fa-info-circle"></i><span id="counter">Mostrando todos los recursos</span>
   </div>
+</div>
+
+<div class="search-container">
+  <div class="search-box">
+    <i class="fas fa-search"></i>
+    <input type="text" id="searchInput" placeholder="Buscar por nombre..." onkeyup="buscarRecursos()">
+    <i class="fas fa-times clear-search" id="clearSearch" onclick="limpiarBusqueda()"></i>
+  </div>
+  <div class="search-results" id="searchResults"></div>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -261,6 +377,7 @@ var map;
 var marcadores = [];
 var tematicasSeleccionadas = new Set();
 var todosLosRecursos = [];
+var recursosFiltradosActuales = [];
 
 // Crear el mapa
 map = L.map('map').setView(
@@ -300,6 +417,7 @@ fetch('recursos.json')
   .then(response => response.json())
   .then(recursos => {
     todosLosRecursos = recursos;
+    recursosFiltradosActuales = recursos;
     
     // Extraer todas las temáticas únicas
     let todasLasTematicas = new Set();
@@ -410,11 +528,16 @@ function actualizarFiltros() {
     });
   }
   
+  recursosFiltradosActuales = recursosFiltrados;
+  
   // Actualizar marcadores
   crearMarcadores(recursosFiltrados);
   
   // Actualizar contador
   actualizarContador(recursosFiltrados.length);
+  
+  // Limpiar búsqueda
+  limpiarBusqueda();
 }
 
 function limpiarFiltros() {
@@ -427,10 +550,14 @@ function limpiarFiltros() {
   tematicasSeleccionadas.clear();
   
   // Mostrar todos los marcadores
+  recursosFiltradosActuales = todosLosRecursos;
   crearMarcadores(todosLosRecursos);
   
   // Actualizar contador
   actualizarContador(todosLosRecursos.length);
+  
+  // Limpiar búsqueda
+  limpiarBusqueda();
 }
 
 function actualizarContador(count) {
@@ -441,6 +568,75 @@ function actualizarContador(count) {
     mensaje = `Mostrando ${count} recurso${count !== 1 ? 's' : ''} (${tematicasSeleccionadas.size} filtro${tematicasSeleccionadas.size !== 1 ? 's' : ''} activo${tematicasSeleccionadas.size !== 1 ? 's' : ''})`;
   }
   document.getElementById('counter').textContent = mensaje;
+}
+
+function buscarRecursos() {
+  const searchInput = document.getElementById('searchInput');
+  const searchResults = document.getElementById('searchResults');
+  const clearSearchBtn = document.getElementById('clearSearch');
+  const query = searchInput.value.toLowerCase().trim();
+  
+  // Mostrar/ocultar botón de limpiar
+  if (query.length > 0) {
+    clearSearchBtn.classList.add('active');
+  } else {
+    clearSearchBtn.classList.remove('active');
+  }
+  
+  if (query.length === 0) {
+    searchResults.classList.remove('active');
+    return;
+  }
+  
+  // Buscar recursos que coincidan
+  const resultados = recursosFiltradosActuales.filter(recurso => 
+    recurso.titulo.toLowerCase().includes(query)
+  );
+  
+  // Mostrar resultados
+  if (resultados.length === 0) {
+    searchResults.innerHTML = '<div class="search-no-results">No se encontraron resultados</div>';
+  } else {
+    searchResults.innerHTML = resultados.map((recurso, index) => `
+      <div class="search-result-item" onclick="irAlRecurso(${index}, true)">
+        <div class="search-result-title">${recurso.titulo}</div>
+        ${recurso.actividad ? `<div class="search-result-activity">${recurso.actividad}</div>` : ''}
+      </div>
+    `).join('');
+  }
+  
+  searchResults.classList.add('active');
+}
+
+function limpiarBusqueda() {
+  document.getElementById('searchInput').value = '';
+  document.getElementById('searchResults').classList.remove('active');
+  document.getElementById('clearSearch').classList.remove('active');
+}
+
+function irAlRecurso(index, desdeBusqueda = false) {
+  const recursos = desdeBusqueda ? 
+    recursosFiltradosActuales.filter(r => r.titulo.toLowerCase().includes(document.getElementById('searchInput').value.toLowerCase())) :
+    recursosFiltradosActuales;
+  
+  const recurso = recursos[index];
+  
+  if (recurso) {
+    // Encontrar el marcador correspondiente
+    const marcador = marcadores.find(m => {
+      const latLng = m.getLatLng();
+      return latLng.lat === recurso.lat && latLng.lng === recurso.lon;
+    });
+    
+    if (marcador) {
+      // Centrar el mapa y abrir el popup
+      map.setView([recurso.lat, recurso.lon], 14);
+      marcador.openPopup();
+      
+      // Limpiar búsqueda
+      limpiarBusqueda();
+    }
+  }
 }
 
 </script>
