@@ -5,12 +5,13 @@
 <title>Mapa Activos</title>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
 <style>
 html, body {
   margin: 0;
   height: 100%;
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #map {
@@ -60,19 +61,28 @@ html, body {
   left: 10px;
   background-color: white;
   padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   z-index: 1000;
-  max-width: 300px;
+  max-width: 320px;
   max-height: 80vh;
   overflow-y: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .filter-container h3 {
   margin-top: 0;
   margin-bottom: 10px;
   color: #2c3e50;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-container h3 i {
+  color: #3498db;
 }
 
 .filter-group {
@@ -80,22 +90,46 @@ html, body {
 }
 
 .filter-group h4 {
-  margin: 10px 0 8px 0;
+  margin: 10px 0 12px 0;
   color: #34495e;
   font-size: 13px;
-  border-bottom: 1px solid #ecf0f1;
-  padding-bottom: 5px;
+  font-weight: 600;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 6px;
 }
 
 .filter-option {
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  padding: 6px 8px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.filter-option:hover {
+  background-color: #f8f9fa;
 }
 
 .filter-option input[type="checkbox"] {
-  margin-right: 8px;
+  margin-right: 10px;
   cursor: pointer;
+  width: 16px;
+  height: 16px;
+  accent-color: #3498db;
+}
+
+.filter-icon {
+  display: inline-flex;
+  width: 20px;
+  justify-content: center;
+  color: #7f8c8d;
+  font-size: 13px;
+  transition: color 0.2s ease;
+}
+
+.filter-option input[type="checkbox"]:checked ~ .filter-icon {
+  color: #3498db;
 }
 
 .filter-option label {
@@ -103,27 +137,39 @@ html, body {
   flex: 1;
   font-size: 12px;
   color: #555;
+  margin: 0;
+  font-weight: 500;
 }
 
-.filter-option input[type="checkbox"]:checked + label {
-  font-weight: bold;
+.filter-option input[type="checkbox"]:checked ~ label {
+  font-weight: 600;
   color: #2c3e50;
 }
 
 .clear-filters-btn {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   background-color: #34495e;
   color: white;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 13px;
   margin-top: 10px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
 }
 
 .clear-filters-btn:hover {
   background-color: #2c3e50;
+}
+
+.clear-filters-btn i {
+  font-size: 11px;
 }
 
 .filter-counter {
@@ -132,6 +178,12 @@ html, body {
   margin-top: 10px;
   padding-top: 10px;
   border-top: 1px solid #ecf0f1;
+  font-weight: 500;
+}
+
+.filter-counter i {
+  color: #3498db;
+  margin-right: 4px;
 }
 </style>
 
@@ -142,20 +194,67 @@ html, body {
 <div id="map"></div>
 
 <div class="filter-container">
-  <h3>Filtros</h3>
+  <h3><i class="fas fa-sliders-h"></i> Filtros</h3>
   <div class="filter-group">
     <h4>Temáticas</h4>
     <div id="tematicas-filter"></div>
   </div>
-  <button class="clear-filters-btn" onclick="limpiarFiltros()">Limpiar filtros</button>
+  <button class="clear-filters-btn" onclick="limpiarFiltros()"><i class="fas fa-times"></i> Limpiar filtros</button>
   <div class="filter-counter">
-    <span id="counter">Mostrando todos los recursos</span>
+    <i class="fas fa-info-circle"></i><span id="counter">Mostrando todos los recursos</span>
   </div>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
+
+// Mapeo de temáticas a iconos
+const iconosTemáticas = {
+  'salud': 'fas fa-heartbeat',
+  'educación': 'fas fa-book',
+  'cultura': 'fas fa-theater-masks',
+  'deporte': 'fas fa-basketball',
+  'medio ambiente': 'fas fa-leaf',
+  'medio-ambiente': 'fas fa-leaf',
+  'medioambiente': 'fas fa-leaf',
+  'tecnología': 'fas fa-laptop',
+  'tecnologia': 'fas fa-laptop',
+  'empleo': 'fas fa-briefcase',
+  'vivienda': 'fas fa-home',
+  'social': 'fas fa-handshake',
+  'servicios': 'fas fa-concierge-bell',
+  'arte': 'fas fa-palette',
+  'música': 'fas fa-music',
+  'musica': 'fas fa-music',
+  'recreación': 'fas fa-gamepad',
+  'recreacion': 'fas fa-gamepad',
+  'infancia': 'fas fa-child',
+  'juventud': 'fas fa-users',
+  'personas mayores': 'fas fa-user-cog',
+  'discapacidad': 'fas fa-wheelchair',
+  'igualdad': 'fas fa-equals',
+  'diversidad': 'fas fa-rainbow',
+  'inclusión': 'fas fa-universal-access',
+  'inclusion': 'fas fa-universal-access',
+  'comunicación': 'fas fa-comments',
+  'comunicacion': 'fas fa-comments',
+  'defensa': 'fas fa-shield-alt',
+  'asesoría': 'fas fa-user-tie',
+  'asesoria': 'fas fa-user-tie',
+  'formación': 'fas fa-graduation-cap',
+  'formacion': 'fas fa-graduation-cap',
+  'investigación': 'fas fa-microscope',
+  'investigacion': 'fas fa-microscope',
+  'emprendimiento': 'fas fa-rocket',
+  'cooperativismo': 'fas fa-handshake',
+  'comercio': 'fas fa-store',
+  'turismo': 'fas fa-map',
+  'movilidad': 'fas fa-subway',
+  'seguridad': 'fas fa-lock',
+  'justicia': 'fas fa-gavel',
+  'derechos': 'fas fa-balance-scale'
+};
 
 // Variables globales
 var map;
@@ -175,6 +274,26 @@ L.tileLayer(
     maxZoom: 19
   }
 ).addTo(map);
+
+// Función para obtener el icono de una temática
+function obtenerIconoTematica(tematica) {
+  const tematicaNormalizada = tematica.toLowerCase().trim();
+  
+  // Buscar coincidencia exacta
+  if (iconosTemáticas[tematicaNormalizada]) {
+    return iconosTemáticas[tematicaNormalizada];
+  }
+  
+  // Buscar coincidencia parcial
+  for (let [key, icon] of Object.entries(iconosTemáticas)) {
+    if (tematicaNormalizada.includes(key) || key.includes(tematicaNormalizada)) {
+      return icon;
+    }
+  }
+  
+  // Icono por defecto
+  return 'fas fa-tag';
+}
 
 // Cargar recursos desde JSON
 fetch('recursos.json')
@@ -197,10 +316,12 @@ fetch('recursos.json')
     let filterHtml = '';
     
     tematicasArray.forEach(tematica => {
+      const icono = obtenerIconoTematica(tematica);
       filterHtml += `
         <div class="filter-option">
           <input type="checkbox" id="tematica-${tematica}" value="${tematica}" 
                  onchange="actualizarFiltros()">
+          <i class="filter-icon ${icono}"></i>
           <label for="tematica-${tematica}">${tematica}</label>
         </div>
       `;
