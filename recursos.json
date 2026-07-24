@@ -1,5 +1,25 @@
 [
   {
+    "titulo": "Asociación Tercera Edad - Zornotza",
+    "lat": 43.2187,
+    "lon": -2.73381,
+    "actividad": "",
+    "telefono": "",
+    "web": "",
+    "tematicas": [
+      "Personas Mayores"
+    ],
+    "poblacion": [
+      "Personas Mayores"
+    ],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Amorebieta"
+    ]
+  },
+  {
     "titulo": "Mancomunidad de Durango - Zaindu",
     "lat": 43.1711,
     "lon": -2.63055,
