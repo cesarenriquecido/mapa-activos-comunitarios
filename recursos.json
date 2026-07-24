@@ -1,5 +1,25 @@
 [
   {
+    "titulo": "Etxebarri-Bekoa",
+    "lat": 43.2541,
+    "lon": -2.4774,
+    "actividad": "",
+    "telefono": "94.494.712",
+    "web": "",
+    "tematicas": [
+      "Personas Mayores"
+    ],
+    "poblacion": [
+      "Personas Mayores"
+    ],
+    "tipo": [
+      "Asociación"
+    ],
+    "uap": [
+      "Markina"
+    ]
+  },
+  {
     "titulo": "Asociación Tercera Edad - Zornotza",
     "lat": 43.2187,
     "lon": -2.73381,
